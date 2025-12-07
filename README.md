@@ -167,12 +167,5 @@ README.md                 # You're reading it!
 
 ---
 
-## 📄 Notes & Assumptions
-
-- 🔹 Menu locators may change based on screen size (responsive)
-- 🔹 Assumes public access to multibank.io
-
----
-
 📬 **Contact**  
 For questions or collaboration: **janand819@gmail.com**
