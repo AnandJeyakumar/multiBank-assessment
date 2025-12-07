@@ -74,7 +74,7 @@ test('TC04 Validate marketing banner and download links', async ({ dashboard  })
 
 });
 
-test.only('TC05 Validate About Us Page', async ({ dashboard , aboutUs }) => {
+test('TC05 Validate About Us Page', async ({ dashboard , aboutUs }) => {
   await dashboard.clickOnMenuWithDropDownByText(menuData.aboutUsMenu);
   await dashboard.clickOnSubMenuItemByText(menuData.whyMultiBankSubMenu);
   await aboutUs.validateAboutUsPageContent();
