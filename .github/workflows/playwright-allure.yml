@@ -29,6 +29,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Clean old artifacts (IMPORTANT)
+        run: |
+          rm -rf github-pages
+          rm -rf allure-results
+          rm -rf allure-report
+          rm -rf allure-history
+
       - name: Setup Node cache
         uses: actions/setup-node@v4
         with:
@@ -39,25 +46,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Run tests in parallel
       - name: Run tests (ALL browsers in parallel)
         if: ${{ inputs.browser == 'all' }}
         run: npx playwright test --retries=2
 
-      # Run for a single browser
       - name: Run tests (single browser)
         if: ${{ inputs.browser != 'all' }}
         run: npx playwright test --project=${{ inputs.browser }} --retries=2
-
-      # Upload Playwright HTML report
-      - name: Upload Playwright HTML report (30 days)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-report
-          path: playwright-report
-          retention-days: 30
-          if-no-files-found: ignore
 
       - name: Install Java
         if: always()
@@ -70,11 +65,7 @@ jobs:
         run: |
           rm -rf allure-report
           rm -rf allure-results/history
-          rm -rf allure-results/categories.json
-          rm -rf allure-results/timeline.json
-          rm -rf allure-results/**/*.json
           npx allure generate allure-results --clean
-        continue-on-error: true
 
       - name: Upload Pages artifact (Allure)
         if: always()

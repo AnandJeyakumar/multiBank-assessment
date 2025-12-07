@@ -42,33 +42,32 @@ export default defineConfig({
       }
     },
 
-    // ---------- FIREFOX ----------
-    {
-      name: 'firefox',
-      use: {
-        ...devices['Desktop Firefox'],
-        viewport: { width: 1520, height: 1080 },
-        launchOptions: {
-          args: [
-            '-width=1520',
-            '-height=1080'
-          ]
-        }
-      }
-    },
+  
+    // {
+    //   name: 'firefox',
+    //   use: {
+    //     ...devices['Desktop Firefox'],
+    //     viewport: { width: 1520, height: 1080 },
+    //     launchOptions: {
+    //       args: [
+    //         '-width=1520',
+    //         '-height=1080'
+    //       ]
+    //     }
+    //   }
+    // },
 
-    // ---------- WEBKIT ----------
-    {
-      name: 'webkit',
-      use: {
-        ...devices['Desktop Safari'],
-        viewport: { width: 1520, height: 1080 },
-        launchOptions: {
-          args: [
-            '--window-size=1520,1080'
-          ]
-        }
-      }
-    },
+    // {
+    //   name: 'webkit',
+    //   use: {
+    //     ...devices['Desktop Safari'],
+    //     viewport: { width: 1520, height: 1080 },
+    //     launchOptions: {
+    //       args: [
+    //         '--window-size=1520,1080'
+    //       ]
+    //     }
+    //   }
+    // },
   ]
 });
