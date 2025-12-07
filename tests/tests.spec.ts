@@ -17,7 +17,7 @@ test.describe('Navigation & Layout', () => {
     await dashboard.validateSubMenuItems(menuData.supportMenuSubItems);
   });
 
-  test.only('TC02 - Navigation items should redirect correctly', async ({ dashboard ,markets,spot,convert , feature_spotExchange }) => {
+  test('TC02 - Navigation items should redirect correctly', async ({ dashboard ,markets,spot,convert , feature_spotExchange }) => {
    
     await dashboard.clickOnMenuWithoutDropDownByText(menuData.dashboardMenu);
     await expect(dashboard.page).toHaveURL(urlEndpoint.dashboard);  
