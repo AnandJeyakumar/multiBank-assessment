@@ -43,7 +43,6 @@ jobs:
         if: ${{ inputs.browser == 'all' }}
         run: npx playwright test --retries=2
 
-      # Else run only the selected project
       - name: Run tests (single browser)
         if: ${{ inputs.browser != 'all' }}
         run: npx playwright test --project=${{ inputs.browser }} --retries=2

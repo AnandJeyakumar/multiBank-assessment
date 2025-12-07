@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","357","Validate About Us Page","chromium","Sun Dec 07 21:02:06 GST 2025","skipped","Sun Dec 07 21:02:06 GST 2025","Navigation & Layout","tests.spec.ts","",""
+"","30990","TC02 - Navigation items should redirect correctly","chromium","Sun Dec 07 21:02:18 GST 2025","broken","Sun Dec 07 21:02:49 GST 2025","Navigation & Layout","tests.spec.ts","",""

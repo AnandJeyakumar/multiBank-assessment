@@ -8,12 +8,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
   // reporter: 'html',
-  // reporter: [['list'], ['allure-playwright', { outputFolder: 'allure-results' }]],
-  reporter: [
-  ['list'],
-  ['html', { outputFolder: 'playwright-report', open: 'never' }],
-  ['allure-playwright']
-],
+  reporter: [['list'], ['allure-playwright', { outputFolder: 'allure-results' }]],
   use: {
     baseURL : 'https://trade.multibank.io/',
     headless: false, 

@@ -1,0 +1,1 @@
+[{"uid":"55b8030c8f97980a","name":"Validate About Us Page","time":{"start":1765126926630,"stop":1765126926987,"duration":357},"status":"skipped","severity":"normal"},{"uid":"4a892654b548ebf3","name":"TC02 - Navigation items should redirect correctly","time":{"start":1765126938993,"stop":1765126969983,"duration":30990},"status":"broken","severity":"normal"}]
