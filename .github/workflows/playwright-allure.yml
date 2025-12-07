@@ -70,6 +70,9 @@ jobs:
         run: |
           rm -rf allure-report
           rm -rf allure-results/history
+          rm -rf allure-results/categories.json
+          rm -rf allure-results/timeline.json
+          rm -rf allure-results/**/*.json
           npx allure generate allure-results --clean
         continue-on-error: true
 
