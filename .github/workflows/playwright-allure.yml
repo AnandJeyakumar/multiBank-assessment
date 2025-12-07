@@ -65,7 +65,7 @@ jobs:
         run: |
           rm -rf allure-report
           rm -rf allure-results/history
-          npx allure generate allure-results --clean
+          npx allure generate allure-results --clean -o allure-report
 
       - name: Upload Pages artifact (Allure)
         if: always()
