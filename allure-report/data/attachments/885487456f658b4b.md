@@ -1,0 +1,559 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://trade.multibank.io/
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Dashboard" [ref=e10] [cursor=pointer]:
+              - /url: /
+            - link "Markets" [ref=e11] [cursor=pointer]:
+              - /url: /markets
+            - generic [ref=e15] [cursor=pointer]:
+              - text: Trade
+              - img [ref=e17]
+            - generic [ref=e22] [cursor=pointer]:
+              - text: Features
+              - img [ref=e24]
+            - generic [ref=e29] [cursor=pointer]:
+              - text: About Us
+              - img [ref=e31]
+            - generic [ref=e36] [cursor=pointer]:
+              - text: Support
+              - img [ref=e38]
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - link "Log In" [ref=e42] [cursor=pointer]:
+                - /url: /login
+                - generic [ref=e43]: Log In
+              - link "Sign Up" [ref=e44] [cursor=pointer]:
+                - /url: /register
+                - generic [ref=e45]: Sign Up
+            - generic [ref=e51] [cursor=pointer]:
+              - img [ref=e53]
+              - text: EN
+              - img [ref=e56]
+    - generic [ref=e63]:
+      - generic [ref=e65]:
+        - generic [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img "BTC" [ref=e68]
+            - img "USD" [ref=e69]
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: BTC-USD
+            - paragraph [ref=e72]: Bitcoin
+          - img [ref=e74]
+        - generic [ref=e76]:
+          - generic [ref=e77]: 90,889.22
+          - generic [ref=e78]: ~90,889.22 USD
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: 24h Change
+            - generic [ref=e83]:
+              - img [ref=e85]
+              - generic [ref=e87]: "1.62"
+              - text: "%"
+          - generic [ref=e88]:
+            - paragraph [ref=e89]: 24h High
+            - generic [ref=e90]: 91,734.71
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: 24h Low
+            - generic [ref=e93]: 87,822.20
+          - generic [ref=e94]:
+            - paragraph [ref=e95]: 24h Volume
+            - generic [ref=e96]: 660,078.11 USD
+        - tablist [ref=e98]:
+          - tab "Trade" [selected] [ref=e99] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e103]: Trade
+          - tab "Coin Info" [ref=e104] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: Coin Info
+      - generic [ref=e109]:
+        - tablist [ref=e112]:
+          - tab "Candle Line" [selected] [ref=e113] [cursor=pointer]:
+            - generic [ref=e114]: Candle Line
+          - tab "Depth" [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: Depth
+        - tabpanel "Candle Line" [ref=e119]:
+          - iframe [ref=e121]:
+            - generic [active] [ref=f8e1]:
+              - contentinfo:
+                - paragraph: TradingView is interactive and has commands to use with a screen reader. The following is a list of keyboard commands available to interact on the platform
+                - list:
+                  - listitem: Start using keyboard navigation mode. Press Alt + Z
+                  - listitem: Quick search. Press Ctrl + K
+                  - listitem: Change symbol. Start typing symbol name
+                  - listitem: Change interval. Press number or comma
+                  - listitem: Indicators, Metrics and Strategies. Press slash
+                  - listitem: Open layout. Press period
+              - generic [ref=f8e2]:
+                - toolbar [ref=f8e6]:
+                  - generic [ref=f8e10]:
+                    - button "1 hour" [ref=f8e13]:
+                      - generic [ref=f8e15]: 1h
+                    - button "Candles" [ref=f8e20]:
+                      - img [ref=f8e22]:
+                        - img [ref=f8e23]
+                    - button "Indicators & Strategies" [ref=f8e32]:
+                      - img [ref=f8e33]:
+                        - img [ref=f8e34]
+                      - generic [ref=f8e36]: Indicators
+                    - generic [ref=f8e40]:
+                      - button "Quick Search" [ref=f8e41]:
+                        - img [ref=f8e42]:
+                          - img [ref=f8e43]
+                      - button "Settings" [ref=f8e46]:
+                        - img [ref=f8e47]:
+                          - img [ref=f8e48]
+                      - button "Fullscreen mode" [ref=f8e52]:
+                        - img [ref=f8e53]:
+                          - img [ref=f8e54]
+                      - button "Take a snapshot" [ref=f8e56]:
+                        - img [ref=f8e58]:
+                          - img [ref=f8e59]
+                - generic [ref=f8e62]:
+                  - toolbar [ref=f8e63]:
+                    - generic [ref=f8e67]:
+                      - generic [ref=f8e68]:
+                        - generic [ref=f8e71]:
+                          - button "Cross" [pressed] [ref=f8e73]:
+                            - img [ref=f8e75]:
+                              - img [ref=f8e76]
+                          - button "Cursors" [pressed] [ref=f8e80]:
+                            - img [ref=f8e81]:
+                              - img [ref=f8e82]
+                        - generic [ref=f8e86]:
+                          - button "Trend Line" [ref=f8e88]:
+                            - img [ref=f8e90]:
+                              - img [ref=f8e91]
+                          - button "Trend line tools" [ref=f8e95]:
+                            - img [ref=f8e96]:
+                              - img [ref=f8e97]
+                        - generic [ref=f8e101]:
+                          - button "Fib Retracement" [ref=f8e103]:
+                            - img [ref=f8e105]:
+                              - img [ref=f8e106]
+                          - button "Gann and Fibonacci tools" [ref=f8e113]:
+                            - img [ref=f8e114]:
+                              - img [ref=f8e115]
+                        - generic [ref=f8e119]:
+                          - button "XABCD Pattern" [ref=f8e121]:
+                            - img [ref=f8e123]:
+                              - img [ref=f8e124]
+                          - button "Patterns" [ref=f8e128]:
+                            - img [ref=f8e129]:
+                              - img [ref=f8e130]
+                        - generic [ref=f8e134]:
+                          - button "Long Position" [ref=f8e136]:
+                            - img [ref=f8e138]:
+                              - img [ref=f8e139]
+                          - button "Forecasting and measurement tools" [ref=f8e142]:
+                            - img [ref=f8e143]:
+                              - img [ref=f8e144]
+                        - generic [ref=f8e148]:
+                          - button "Brush" [ref=f8e150]:
+                            - img [ref=f8e152]:
+                              - img [ref=f8e153]
+                          - button "Geometric shapes" [ref=f8e157]:
+                            - img [ref=f8e158]:
+                              - img [ref=f8e159]
+                        - generic [ref=f8e163]:
+                          - button "Text" [ref=f8e165]:
+                            - img [ref=f8e167]:
+                              - img [ref=f8e168]
+                          - button "Annotation tools" [ref=f8e170]:
+                            - img [ref=f8e171]:
+                              - img [ref=f8e172]
+                        - generic [ref=f8e175]:
+                          - button "Icon" [ref=f8e177]:
+                            - img [ref=f8e179]:
+                              - img [ref=f8e180]
+                          - button "Icons" [ref=f8e182]:
+                            - img [ref=f8e183]:
+                              - img [ref=f8e184]
+                      - generic [ref=f8e186]:
+                        - button "Measure" [ref=f8e187]:
+                          - img [ref=f8e189]:
+                            - img [ref=f8e190]
+                        - button "Zoom In" [ref=f8e192]:
+                          - img [ref=f8e194]:
+                            - img [ref=f8e195]
+                      - generic [ref=f8e200]:
+                        - generic [ref=f8e203]:
+                          - button "Magnet Mode snaps drawings placed near price bars to the closest OHLC value" [ref=f8e205]:
+                            - img [ref=f8e207]:
+                              - img [ref=f8e208]
+                          - button "Magnets" [ref=f8e212]:
+                            - img [ref=f8e213]:
+                              - img [ref=f8e214]
+                        - button "Stay in Drawing Mode" [ref=f8e216]:
+                          - img [ref=f8e218]:
+                            - img [ref=f8e219]
+                        - button "Lock all drawings" [ref=f8e221]:
+                          - img [ref=f8e223]:
+                            - img [ref=f8e224]
+                        - generic [ref=f8e227]:
+                          - button "Hide all drawings" [ref=f8e229]:
+                            - img [ref=f8e231]:
+                              - img [ref=f8e232]
+                          - button "Hide options" [ref=f8e234]:
+                            - img [ref=f8e235]:
+                              - img [ref=f8e236]
+                      - generic [ref=f8e240]:
+                        - button "Remove 0 drawings" [ref=f8e242]:
+                          - img [ref=f8e244]:
+                            - img [ref=f8e245]
+                        - button "Remove options" [ref=f8e247]:
+                          - img [ref=f8e248]:
+                            - img [ref=f8e249]
+                      - button "Show Object Tree" [ref=f8e253]:
+                        - img [ref=f8e255]:
+                          - img [ref=f8e256]
+                  - button "Hide Drawings Toolbar" [ref=f8e261]:
+                    - img [ref=f8e262]
+                - generic [ref=f8e266]:
+                  - 'region "Chart #1" [ref=f8e269]':
+                    - generic [ref=f8e273]:
+                      - generic:
+                        - generic:
+                          - toolbar:
+                            - generic:
+                              - generic [ref=f8e274]:
+                                - generic "Change symbol" [ref=f8e275]:
+                                  - button "Change symbol" [ref=f8e276]: BTC/USD
+                                - text: · · · · · ·
+                              - generic:
+                                - generic:
+                                  - button "More":
+                                    - generic:
+                                      - img
+                            - generic [ref=f8e278]:
+                              - generic [ref=f8e279]:
+                                - generic [ref=f8e280]: O
+                                - generic [ref=f8e281]: 91,439.30
+                              - generic [ref=f8e282]:
+                                - generic [ref=f8e283]: H
+                                - generic [ref=f8e284]: 91,437.68
+                              - generic [ref=f8e285]:
+                                - generic [ref=f8e286]: L
+                                - generic [ref=f8e287]: 90,851.99
+                              - generic [ref=f8e288]:
+                                - generic [ref=f8e289]: C
+                                - generic [ref=f8e290]: 90,889.22
+                              - generic [ref=f8e292]: −550.08 (−0.60%)
+                        - generic:
+                          - button "Hide indicator legend" [ref=f8e293]:
+                            - img [ref=f8e295]
+                          - generic:
+                            - toolbar:
+                              - generic:
+                                - generic [ref=f8e299]: Volume
+                                - generic:
+                                  - generic:
+                                    - button "Hide":
+                                      - generic:
+                                        - img
+                                    - button "Settings":
+                                      - generic:
+                                        - img
+                                    - button "Remove":
+                                      - generic:
+                                        - img
+                                    - button "More":
+                                      - generic:
+                                        - img
+                              - generic "Volume" [ref=f8e303]: "0.15229"
+                      - generic "Chart for BTC/USD, 1 hour" [ref=f8e305]
+                  - toolbar [ref=f8e319]:
+                    - generic [ref=f8e323]:
+                      - button "Timezone" [ref=f8e326]:
+                        - generic [ref=f8e327]: 21:30:51 UTC
+                      - button "Toggle Percentage" [ref=f8e331]:
+                        - img [ref=f8e332]:
+                          - img [ref=f8e333]
+                      - button "Toggle Log Scale" [ref=f8e339]:
+                        - generic [ref=f8e340]: log
+                      - button "Toggle Auto Scale" [pressed] [ref=f8e342]:
+                        - generic [ref=f8e343]: auto
+              - alert
+      - generic [ref=e122]:
+        - generic [ref=e124]:
+          - tablist [ref=e126]:
+            - tab "Order Book" [selected] [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: Order Book
+            - tab "Trades" [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: Trades
+          - button [ref=e131] [cursor=pointer]:
+            - img [ref=e133]
+        - generic [ref=e135]:
+          - tabpanel "Order Book" [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - button "Show asks and bids" [ref=e139] [cursor=pointer]
+                - button "Show bids only" [ref=e140] [cursor=pointer]
+                - button "Show asks only" [ref=e141] [cursor=pointer]
+                - button "0.01" [ref=e143] [cursor=pointer]:
+                  - generic [ref=e144]: "0.01"
+                  - img [ref=e146]
+              - generic [ref=e148]:
+                - generic [ref=e149]: Price (USD)
+                - generic [ref=e150]: Size (BTC)
+                - generic [ref=e151]: Total (USD)
+              - generic [ref=e156]:
+                - generic [ref=e157] [cursor=pointer]:
+                  - generic [ref=e158]: 90,908.01
+                  - generic [ref=e159]: "0.2406"
+                  - generic [ref=e160]: 21,872.467206
+                - generic [ref=e162] [cursor=pointer]:
+                  - generic [ref=e163]: 90,910.10
+                  - generic [ref=e164]: "0.08976"
+                  - generic [ref=e165]: 8,160.090576
+                - generic [ref=e167] [cursor=pointer]:
+                  - generic [ref=e168]: 90,917.30
+                  - generic [ref=e169]: "0.31038"
+                  - generic [ref=e170]: 28,218.911574
+                - generic [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173]: 90,920.48
+                  - generic [ref=e174]: "0.16501"
+                  - generic [ref=e175]: 15,002.7884048
+                - generic [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: 90,921.84
+                  - generic [ref=e179]: "0.19801"
+                  - generic [ref=e180]: 18,003.4335384
+                - generic [ref=e182] [cursor=pointer]:
+                  - generic [ref=e183]: 90,923.48
+                  - generic [ref=e184]: "0.49502"
+                  - generic [ref=e185]: 45,008.9410696
+                - generic [ref=e187] [cursor=pointer]:
+                  - generic [ref=e188]: 90,924.89
+                  - generic [ref=e189]: "0.33001"
+                  - generic [ref=e190]: 30,006.1229489
+                - generic [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193]: 90,927.60
+                  - generic [ref=e194]: "0.5946"
+                  - generic [ref=e195]: 54,065.55096
+                - generic [ref=e197] [cursor=pointer]:
+                  - generic [ref=e198]: 90,929.75
+                  - generic [ref=e199]: "1.08"
+                  - generic [ref=e200]: 98,204.13
+                - generic [ref=e202] [cursor=pointer]:
+                  - generic [ref=e203]: 90,931.28
+                  - generic [ref=e204]: "0.65997"
+                  - generic [ref=e205]: 60,011.9168616
+              - generic [ref=e209]:
+                - generic [ref=e210]: "90889.22"
+                - img [ref=e212]
+                - generic [ref=e214]: $90,889.22
+              - generic [ref=e219]:
+                - generic [ref=e220] [cursor=pointer]:
+                  - generic [ref=e221]: 90,878.68
+                  - generic [ref=e222]: "0.16502"
+                  - generic [ref=e223]: 14,996.7997736
+                - generic [ref=e225] [cursor=pointer]:
+                  - generic [ref=e226]: 90,874.88
+                  - generic [ref=e227]: "0.19803"
+                  - generic [ref=e228]: 17,995.9524864
+                - generic [ref=e230] [cursor=pointer]:
+                  - generic [ref=e231]: 90,873.59
+                  - generic [ref=e232]: "0.2415"
+                  - generic [ref=e233]: 21,945.971985
+                - generic [ref=e235] [cursor=pointer]:
+                  - generic [ref=e236]: 90,872.92
+                  - generic [ref=e237]: "0.33006"
+                  - generic [ref=e238]: 29,993.5159752
+                - generic [ref=e240] [cursor=pointer]:
+                  - generic [ref=e241]: 90,871.50
+                  - generic [ref=e242]: "0.11892"
+                  - generic [ref=e243]: 10,806.43878
+                - generic [ref=e245] [cursor=pointer]:
+                  - generic [ref=e246]: 90,870.41
+                  - generic [ref=e247]: "0.49511"
+                  - generic [ref=e248]: 44,990.8486951
+                - generic [ref=e250] [cursor=pointer]:
+                  - generic [ref=e251]: 90,865.46
+                  - generic [ref=e252]: "0.66018"
+                  - generic [ref=e253]: 59,987.5593828
+                - generic [ref=e255] [cursor=pointer]:
+                  - generic [ref=e256]: 90,864.30
+                  - generic [ref=e257]: "0.37212"
+                  - generic [ref=e258]: 33,812.423316
+                - generic [ref=e260] [cursor=pointer]:
+                  - generic [ref=e261]: 90,857.19
+                  - generic [ref=e262]: "1.02"
+                  - generic [ref=e263]: 92,674.3338
+                - generic [ref=e265] [cursor=pointer]:
+                  - generic [ref=e266]: 90,854.00
+                  - generic [ref=e267]: "0.519"
+                  - generic [ref=e268]: 47,153.226
+          - tabpanel "Trades"
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - tablist [ref=e275]:
+            - tab "Open Orders" [selected] [ref=e276] [cursor=pointer]:
+              - generic [ref=e277]: Open Orders
+            - tab "Order History" [ref=e278] [cursor=pointer]:
+              - generic [ref=e279]: Order History
+            - tab "Portfolio" [ref=e280] [cursor=pointer]:
+              - generic [ref=e281]: Portfolio
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - switch "All Pairs" [ref=e284]:
+                - img [ref=e286]
+              - generic [ref=e288]: All Pairs
+            - link "All Orders" [ref=e289] [cursor=pointer]:
+              - /url: /orders/open
+              - img [ref=e291]
+              - text: All Orders
+        - generic [ref=e293]:
+          - tabpanel "Open Orders" [ref=e294]:
+            - generic [ref=e298]:
+              - table [ref=e299]:
+                - rowgroup [ref=e300]:
+                  - row "Date Pair Type Side Price Amount Trigger Conditions Filled Total Action" [ref=e301]:
+                    - columnheader "Date" [ref=e302] [cursor=pointer]:
+                      - generic [ref=e303]: Date
+                    - columnheader "Pair" [ref=e304] [cursor=pointer]:
+                      - generic [ref=e305]: Pair
+                    - columnheader "Type" [ref=e306] [cursor=pointer]:
+                      - generic [ref=e307]: Type
+                    - columnheader "Side" [ref=e308] [cursor=pointer]:
+                      - generic [ref=e309]: Side
+                    - columnheader "Price" [ref=e310] [cursor=pointer]:
+                      - generic [ref=e311]: Price
+                    - columnheader "Amount" [ref=e312] [cursor=pointer]:
+                      - generic [ref=e313]: Amount
+                    - columnheader "Trigger Conditions" [ref=e314] [cursor=pointer]:
+                      - generic [ref=e315]: Trigger Conditions
+                    - columnheader "Filled" [ref=e316]:
+                      - generic [ref=e317]: Filled
+                    - columnheader "Total" [ref=e318] [cursor=pointer]:
+                      - generic [ref=e319]: Total
+                    - columnheader "Action" [ref=e320]:
+                      - generic [ref=e322]: Action
+                - rowgroup
+              - paragraph [ref=e325]:
+                - text: Please
+                - link "Log In" [ref=e326] [cursor=pointer]:
+                  - /url: /login
+                - text: or
+                - link "Sign Up" [ref=e327] [cursor=pointer]:
+                  - /url: /register
+                - text: first.
+          - tabpanel "Order History"
+          - tabpanel "Portfolio"
+      - generic [ref=e329]:
+        - generic [ref=e330]:
+          - generic [ref=e331]:
+            - generic [ref=e333]:
+              - button "Market" [ref=e334] [cursor=pointer]:
+                - generic [ref=e335]: Market
+              - button "Limit" [ref=e336] [cursor=pointer]:
+                - generic [ref=e337]: Limit
+              - button "Stop" [ref=e339] [cursor=pointer]:
+                - generic [ref=e341]:
+                  - generic [ref=e342]: Stop
+                  - img [ref=e344]
+            - button [ref=e346] [cursor=pointer]:
+              - img [ref=e348]
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - button "Buy" [ref=e353] [cursor=pointer]:
+                - generic [ref=e354]: Buy
+              - button "Sell" [ref=e355] [cursor=pointer]:
+                - generic [ref=e356]: Sell
+            - generic [ref=e357]:
+              - paragraph [ref=e358]: "You have:"
+              - generic [ref=e359]:
+                - generic [ref=e361]: "0"
+                - text: USD
+                - img [ref=e363] [cursor=pointer]
+            - generic [ref=e365]: Best Market Price
+            - generic [ref=e366]:
+              - generic [ref=e368] [cursor=pointer]:
+                - img [ref=e370]
+                - generic [ref=e373]: Amount
+              - textbox "Amount" [ref=e374]:
+                - /placeholder: "0.00000"
+              - generic [ref=e377] [cursor=pointer]:
+                - img "BTC" [ref=e378]
+                - text: BTC
+                - img [ref=e380]
+            - generic [ref=e383]:
+              - generic [ref=e386] [cursor=pointer]: 0%
+              - generic [ref=e388] [cursor=pointer]: 25%
+              - generic [ref=e390] [cursor=pointer]: 50%
+              - generic [ref=e392] [cursor=pointer]: 75%
+              - generic [ref=e394] [cursor=pointer]: 100%
+              - slider [ref=e395]
+          - generic [ref=e398]:
+            - link "Log In" [ref=e399] [cursor=pointer]:
+              - /url: /login
+            - text: or
+            - link "Sign Up" [ref=e400] [cursor=pointer]:
+              - /url: /register
+            - text: to trade
+        - generic [ref=e402]:
+          - heading "Pay Trading Fees with MBG" [level=5] [ref=e403]
+          - paragraph [ref=e404]: Instead of paying trading fees in base or quote currency, pay an equivalent amount with MBG.
+          - generic [ref=e405] [cursor=pointer]:
+            - text: Learn More
+            - img [ref=e407]
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - img [ref=e412]
+          - text: Connected
+        - generic [ref=e414]:
+          - button "Downloads" [ref=e415] [cursor=pointer]:
+            - img [ref=e417]
+            - text: Downloads
+          - button "Chat Now" [ref=e419] [cursor=pointer]:
+            - img [ref=e421]
+            - text: Chat Now
+  - alert [ref=e423]: 90889.22 - BTC/USD MultiBank.io
+  - iframe [ref=e425]:
+    - main [ref=f7e2]:
+      - button "Open LiveChat chat widget" [ref=f7e6] [cursor=pointer]:
+        - img [ref=f7e8]
+  - generic:
+    - generic:
+      - menu:
+        - menuitem:
+          - img
+          - text: BTC
+        - menuitem:
+          - img
+          - text: USD
+    - generic:
+      - menu:
+        - menuitem: Legacy
+        - menuitem: DeFi
+        - menuitem: Stablecoin
+    - generic:
+      - menu:
+        - generic: Book Depth Visualization
+        - menuitem:
+          - text: Amount
+          - generic:
+            - img
+        - menuitem: Cumulative
+  - generic [ref=e428]: 90,927.6
+  - generic:
+    - generic:
+      - generic:
+        - dialog:
+          - generic [ref=e432]:
+            - button [active] [ref=e433] [cursor=pointer]:
+              - img [ref=e435]
+            - generic [ref=e438]:
+              - img "Instant buy" [ref=e440]
+              - generic [ref=e449]:
+                - heading "What is Instant Buy?" [level=2] [ref=e450]
+                - paragraph [ref=e451]: Buy crypto in three simple steps by using your bank card to on-ramp and instantly buy crypto.
+                - button "Next" [ref=e453] [cursor=pointer]:
+                  - generic [ref=e454]: Next
+```

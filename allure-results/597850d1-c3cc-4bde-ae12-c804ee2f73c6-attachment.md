@@ -1,0 +1,408 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://trade.multibank.io/
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Dashboard" [ref=e10] [cursor=pointer]:
+              - /url: /
+            - link "Markets" [ref=e11] [cursor=pointer]:
+              - /url: /markets
+            - generic [ref=e15] [cursor=pointer]:
+              - text: Trade
+              - img [ref=e17]
+            - generic [ref=e22] [cursor=pointer]:
+              - text: Features
+              - img [ref=e24]
+            - generic [ref=e29] [cursor=pointer]:
+              - text: About Us
+              - img [ref=e31]
+            - generic [ref=e36] [cursor=pointer]:
+              - text: Support
+              - img [ref=e38]
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - link "Log In" [ref=e42] [cursor=pointer]:
+                - /url: /login
+                - generic [ref=e43]: Log In
+              - link "Sign Up" [ref=e44] [cursor=pointer]:
+                - /url: /register
+                - generic [ref=e45]: Sign Up
+            - generic [ref=e51] [cursor=pointer]:
+              - img [ref=e53]
+              - text: EN
+              - img [ref=e56]
+    - generic [ref=e59]:
+      - img "Convert - Lines Background"
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "Convert" [level=3] [ref=e65]
+            - heading "Easily convert one cryptocurrency to another, with no fees." [level=5] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img "trade:convert.perks.instant-price-title" [ref=e69]
+              - generic [ref=e70]:
+                - heading "Instant Price" [level=4] [ref=e71]
+                - paragraph [ref=e72]: Any time, Anywhere
+            - generic [ref=e73]:
+              - img "trade:convert.perks.guaranteed-title" [ref=e74]
+              - generic [ref=e75]:
+                - heading "Guaranteed" [level=4] [ref=e76]
+                - paragraph [ref=e77]: Convert Now, Worry Never
+            - generic [ref=e78]:
+              - img "trade:convert.perks.any-pair-title" [ref=e79]
+              - generic [ref=e80]:
+                - heading "Any Pair" [level=4] [ref=e81]
+                - paragraph [ref=e82]: Simplified Conversions, Zero Hassle
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e87]: From
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - textbox "0.00000000" [ref=e90]
+                  - paragraph [ref=e91]: ≈ $0.00
+                - img [ref=e94]
+                - generic [ref=e99] [cursor=pointer]:
+                  - img "USDT" [ref=e100]
+                  - paragraph [ref=e101]: USDT
+                  - img [ref=e103]
+            - img [ref=e109] [cursor=pointer]
+            - generic [ref=e112]:
+              - generic [ref=e114]: To
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - textbox "0.00000000" [ref=e117]
+                  - paragraph [ref=e118]: ≈ $0.00
+                - generic [ref=e119] [cursor=pointer]:
+                  - img "BTC" [ref=e120]
+                  - paragraph [ref=e121]: BTC
+                  - img [ref=e123]
+          - generic [ref=e125]:
+            - paragraph [ref=e127]: "* The provided quote is an estimate"
+            - button "Log In or Sign Up" [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]:
+                - link "Log In" [ref=e131]:
+                  - /url: /login
+                - text: or
+                - link "Sign Up" [ref=e132]:
+                  - /url: /register
+  - alert [ref=e133]: MultiBank.io - Convert
+  - iframe [ref=e135]:
+    - main [ref=f6e2]:
+      - button "Open LiveChat chat widget" [ref=f6e6] [cursor=pointer]:
+        - img [ref=f6e8]
+  - generic [ref=e138]: 90,359.21
+  - generic:
+    - generic:
+      - menu:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - textbox:
+                - /placeholder: Search Assets
+        - generic:
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: AAVE
+              - paragraph: Aave
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ADA
+              - paragraph: Cardano
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: AED
+              - paragraph: AED
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ALGO
+              - paragraph: Algorand
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: AVAX
+              - paragraph: Avalanche
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: BCH
+              - paragraph: Bitcoin Cash
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: BTC
+              - paragraph: Bitcoin
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: COMP
+              - paragraph: Compound
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: DAI
+              - paragraph: DAI
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: DOGE
+              - paragraph: DOGE
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: DOT
+              - paragraph: DOT
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ETC
+              - paragraph: Ethereum Classic
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ETH
+              - paragraph: Ethereum
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: EUR
+              - paragraph: EUR
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: LINK
+              - paragraph: LINK
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: LTC
+              - paragraph: Litecoin
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: MANA
+              - paragraph: Decentraland
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: MBG
+              - paragraph: MBG
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: POL
+              - paragraph: Polygon Ecosystem Token
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: SAND
+              - paragraph: The Sandbox
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: SHIB
+              - paragraph: Shiba Inu
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: SOL
+              - paragraph: SOL
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: TRX
+              - paragraph: Tron
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: UNI
+              - paragraph: Uniswap
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: USD
+              - paragraph: USD
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: USDC
+              - paragraph: USD Coin
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: USDT
+              - paragraph: USDT
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: XDC
+              - paragraph: XDC Network
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: XRP
+              - paragraph: Ripple
+    - generic:
+      - menu:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - textbox:
+                - /placeholder: Search Assets
+        - generic:
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: AAVE
+              - paragraph: Aave
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ADA
+              - paragraph: Cardano
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: AED
+              - paragraph: AED
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ALGO
+              - paragraph: Algorand
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: AVAX
+              - paragraph: Avalanche
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: BCH
+              - paragraph: Bitcoin Cash
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: BTC
+              - paragraph: Bitcoin
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: COMP
+              - paragraph: Compound
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: DAI
+              - paragraph: DAI
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: DOGE
+              - paragraph: DOGE
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: DOT
+              - paragraph: DOT
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ETC
+              - paragraph: Ethereum Classic
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: ETH
+              - paragraph: Ethereum
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: EUR
+              - paragraph: EUR
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: LINK
+              - paragraph: LINK
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: LTC
+              - paragraph: Litecoin
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: MANA
+              - paragraph: Decentraland
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: MBG
+              - paragraph: MBG
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: POL
+              - paragraph: Polygon Ecosystem Token
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: SAND
+              - paragraph: The Sandbox
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: SHIB
+              - paragraph: Shiba Inu
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: SOL
+              - paragraph: SOL
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: TRX
+              - paragraph: Tron
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: UNI
+              - paragraph: Uniswap
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: USD
+              - paragraph: USD
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: USDC
+              - paragraph: USD Coin
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: XDC
+              - paragraph: XDC Network
+          - menuitem:
+            - img
+            - generic:
+              - paragraph: XRP
+              - paragraph: Ripple
+```

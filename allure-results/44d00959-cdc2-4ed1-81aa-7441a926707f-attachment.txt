@@ -1,0 +1,4 @@
+Inside clickOnMenuWithDropDownByText Trade
+The Trade Pair Text is BTC-USD
+The current price is  89,439.51
+The formattedPrice  is  89439.51

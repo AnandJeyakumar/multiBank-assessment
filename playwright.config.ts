@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  fullyParallel: true,
+  fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
@@ -24,7 +24,7 @@ export default defineConfig({
   },
 
   projects: [
-    // ---------- CHROMIUM ----------
+    
     {
       name: 'chromium',
       use: {
@@ -40,6 +40,18 @@ export default defineConfig({
           ]
         }
       }
+    },
+
+    {
+      name: 'Microsoft Edge',
+      use: { ...devices['Desktop Edge'],
+         channel: 'msedge',
+        viewport: { width: 1520, height: 1080 },
+        launchOptions: {
+          args: [
+            '--window-size=1520,1080'
+          ]
+        } },
     },
 
   
@@ -69,5 +81,8 @@ export default defineConfig({
     //     }
     //   }
     // },
+
+    
+
   ]
 });

@@ -1,0 +1,7 @@
+Inside clickOnMenuWithoutDropDownByText Dashboard
+Inside clickOnMenuWithoutDropDownByText Markets
+Inside clickOnMenuWithDropDownByText Trade
+The Trade Pair Text is BTC-USD
+Inside clickOnMenuWithDropDownByText Trade
+Inside clickOnMenuWithDropDownByText Trade
+Inside clickOnMenuWithDropDownByText Trade

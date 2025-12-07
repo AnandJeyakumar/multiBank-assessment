@@ -1,0 +1,282 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Logo Multibankio" [ref=e5] [cursor=pointer]:
+          - /url: /en-AE/
+          - img "Logo Multibankio" [ref=e6]
+        - generic [ref=e7]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: https://trade.multibank.io/
+            - heading "Dashboard" [level=2] [ref=e10]
+          - link "$MBG 🔥" [ref=e12] [cursor=pointer]:
+            - /url: https://token.multibankgroup.com/en-AE
+            - heading "$MBG 🔥" [level=2] [ref=e13]
+          - link "Markets" [ref=e15] [cursor=pointer]:
+            - /url: https://trade.multibank.io/markets
+            - heading "Markets" [level=2] [ref=e16]
+          - generic [ref=e18] [cursor=pointer]:
+            - heading "Trade" [level=2] [ref=e19]
+            - generic [ref=e20]:
+              - img
+          - generic [ref=e23] [cursor=pointer]:
+            - heading "Features" [level=2] [ref=e24]
+            - generic [ref=e25]:
+              - img
+          - generic [ref=e28] [cursor=pointer]:
+            - heading "Partnership" [level=2] [ref=e29]
+            - generic [ref=e30]:
+              - img
+          - generic [ref=e33] [cursor=pointer]:
+            - heading "Support" [level=2] [ref=e34]
+            - generic [ref=e35]:
+              - img
+          - link "Blog & News" [ref=e38] [cursor=pointer]:
+            - /url: /en-AE/about/blog
+            - heading "Blog & News" [level=2] [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - img [ref=e44] [cursor=pointer]
+          - generic [ref=e47]:
+            - img [ref=e50] [cursor=pointer]
+            - heading "en" [level=2] [ref=e53]
+            - img [ref=e55]
+        - generic [ref=e58]:
+          - link "LOGIN" [ref=e59] [cursor=pointer]:
+            - /url: https://trade.multibank.io/login
+            - button "LOGIN" [ref=e60]:
+              - generic [ref=e61]: LOGIN
+          - link "SIGN UP" [ref=e62] [cursor=pointer]:
+            - /url: https://trade.multibank.io/register
+            - button "SIGN UP" [ref=e63]:
+              - generic [ref=e64]: SIGN UP
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e73]:
+            - heading "Features" [level=4] [ref=e74]
+            - heading "Buy & Sell Cryptocurrencies" [level=1] [ref=e75]
+            - paragraph [ref=e76]: Our digital currency trading platform has everything that you need from cryptocurrency trading for beginners and buying crypto with a credit card to leveraged trading and institutional solutions for cryptocurrency investment. Take your pick!
+          - img "Group[1]" [ref=e77]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e84]: ‌
+                - img "Cards 1[1]" [ref=e85]
+              - heading "$2 trillion" [level=2] [ref=e86]
+              - heading "Annual Turnover" [level=4] [ref=e87]
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - generic [ref=e92]: ‌
+                - img "Cards 1[1]" [ref=e93]
+              - heading "+1,000,000" [level=2] [ref=e94]
+              - heading "Customers Worldwide" [level=4] [ref=e95]
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e100]: ‌
+                - img "Cards 1[1]" [ref=e101]
+              - heading "25+" [level=2] [ref=e102]
+              - heading "Offices Globally" [level=4] [ref=e103]
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e108]: ‌
+                - img "Cards 1[1]" [ref=e109]
+              - generic [ref=e110]:
+                - heading "Step 1" [level=5] [ref=e111]
+                - heading "Regulation" [level=2] [ref=e112]
+                - paragraph [ref=e113]: MultiBank.io will offer regulated cryptocurrency spot trading through our Australian division "MEX Digital Pty Ltd" which is regulated by the Australian Securities & Investments Commission (ASIC). MultiBank.io is both audited and registered by the Australian Transaction Reports and Analysis Centre (AUSTRAC)
+                - link "Learn more" [ref=e114] [cursor=pointer]:
+                  - /url: /en-AE/about/why-multibank?st=regulations-div
+                  - button "Learn more" [ref=e115]:
+                    - generic [ref=e116]: Learn more
+                    - img [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e123]: ‌
+                - img "Spot Exchange" [ref=e124]
+              - generic [ref=e125]:
+                - heading "Step 2" [level=5] [ref=e126]
+                - heading "Security of Funds" [level=2] [ref=e127]
+                - paragraph [ref=e128]: MultiBank.io offers a full custodian solution with Multi-Party Computation (MPC) wallet technology and secure digital asset management including triple-lock private key encryption, and a secure authentication app.
+          - generic [ref=e130]:
+            - img "Vector[1]" [ref=e132]
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: START YOUR CRYPTO JOURNEY
+              - heading "Get The Mobile App Now" [level=3] [ref=e136]
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - heading "Exchange Features" [level=2] [ref=e140]
+            - paragraph [ref=e141]: MultiBank.io's powerful trading platform will help you manage your portfolio and trades with ease, making us the best cryptocurrency exchange to buy Bitcoin and Altcoins.
+            - link "Get Started" [ref=e142] [cursor=pointer]:
+              - /url: https://trade.multibank.io/
+              - button "Get Started" [ref=e143]:
+                - generic [ref=e144]: Get Started
+                - img [ref=e146]
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e151]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]: ‌
+                  - img "Cards 1[1]" [ref=e155]
+                - heading "Multiple payment methods" [level=4] [ref=e156]
+                - paragraph [ref=e157]: Buy Bitcoin instantly with bank transfers in USD, EUR and AED.
+                - img "1" [ref=e159]
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - generic [ref=e164]: ‌
+                  - img "Cards 1[1]" [ref=e165]
+                - heading "Competitive Fees" [level=4] [ref=e166]
+                - paragraph [ref=e167]: We offer some of the lowest fees in the crypto market.
+                - img "1" [ref=e169]
+            - img "Img Io Exchange Features[1]" [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - generic [ref=e177]: ‌
+                  - img "Cards 1[1]" [ref=e178]
+                - heading "Deep Liquidity" [level=4] [ref=e179]
+                - paragraph [ref=e180]: Tightest spreads through extremely deep liquidity, giving traders the most favourable trading conditions.
+                - img "1" [ref=e182]
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e187]: ‌
+                  - img "Rad[1]" [ref=e188]
+                - heading "24/7 Customer Service" [level=4] [ref=e189]
+                - paragraph [ref=e190]: Our efficient 24/7 Customer Support team is here to help you buy Bitcoin and altcoins round the clock and to help you resolve any questions you might have.
+                - img "1" [ref=e192]
+      - contentinfo [ref=e194]:
+        - generic [ref=e196]:
+          - img "World Map Bg"
+          - generic [ref=e197]:
+            - generic [ref=e198]: Start Trading Now
+            - generic [ref=e199]: Join the biggest regulated crypto exchange on the market
+            - link "Explore our platform" [ref=e200] [cursor=pointer]:
+              - /url: https://trade.multibank.io/trade/BTC_USD
+              - button "Explore our platform" [ref=e201]:
+                - generic [ref=e202]: Explore our platform
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - generic [ref=e208]: ‌
+                - img "Multi Bank Io Gold" [ref=e209]
+              - heading "Buy and Withdraw Crypto Instantly" [level=2] [ref=e210]
+              - paragraph [ref=e211]: Instant Buy tool – the fastest way to buy bitcoin and altcoins. Withdraw your funds to a card, bank account or crypto wallet with a few simple clicks.
+              - generic [ref=e212]:
+                - paragraph [ref=e213]: "Assured by:"
+                - link "Audited by Hacken" [ref=e214] [cursor=pointer]:
+                  - /url: https://hacken.io/audits/multibank-io/pt-multibank-io-web-feb2024
+                  - img "Audited by Hacken" [ref=e215]
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - heading "Features" [level=2] [ref=e218]: Features
+                - generic [ref=e220]:
+                  - link "Spot Exchange" [ref=e221] [cursor=pointer]:
+                    - /url: /en-AE/features/spot-exchange
+                    - heading "Spot Exchange" [level=2] [ref=e222]
+                  - link "Institutional" [ref=e223] [cursor=pointer]:
+                    - /url: /en-AE/features/institutional
+                    - heading "Institutional" [level=2] [ref=e224]
+                  - link "Buy & Sell" [ref=e225] [cursor=pointer]:
+                    - /url: /en-AE/features/instant-buy
+                    - heading "Buy & Sell" [level=2] [ref=e226]
+              - generic [ref=e227]:
+                - heading "Legal" [level=2] [ref=e228]: Legal
+                - generic [ref=e230]:
+                  - link "Cookie Policy" [ref=e231] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/cookie-policy
+                    - heading "Cookie Policy" [level=2] [ref=e232]
+                  - link "Terms & Conditions" [ref=e233] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/terms-and-conditions
+                    - heading "Terms & Conditions" [level=2] [ref=e234]
+                  - link "Disclaimer" [ref=e235] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/disclaimer
+                    - heading "Disclaimer" [level=2] [ref=e236]
+                  - link "Code of Conduct" [ref=e237] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/code-of-conduct
+                    - heading "Code of Conduct" [level=2] [ref=e238]
+                  - link "Public Complaint Policy" [ref=e239] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/complaint-policy
+                    - heading "Public Complaint Policy" [level=2] [ref=e240]
+                  - link "Public Disclosure" [ref=e241] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/public-disclosure
+                    - heading "Public Disclosure" [level=2] [ref=e242]
+                  - link "Privacy Policy" [ref=e243] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/privacy-policy
+                    - heading "Privacy Policy" [level=2] [ref=e244]
+                  - link "Broker Dealer Services" [ref=e245] [cursor=pointer]:
+                    - /url: /en-AE/legal/broker-dealer-services
+                    - heading "Broker Dealer Services" [level=2] [ref=e246]
+                  - link "Exchange Services" [ref=e247] [cursor=pointer]:
+                    - /url: /en-AE/legal/exchange-services
+                    - heading "Exchange Services" [level=2] [ref=e248]
+                  - link "Client Agreement" [ref=e249] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/client-agreement
+                    - heading "Client Agreement" [level=2] [ref=e250]
+                  - link "VA Standards" [ref=e251] [cursor=pointer]:
+                    - /url: /en-AE/about/gcc/virtual-asset-standards
+                    - heading "VA Standards" [level=2] [ref=e252]
+                  - link "Spot Fees" [ref=e253] [cursor=pointer]:
+                    - /url: /en-AE/support/faq/trading/trading-fees
+                    - heading "Spot Fees" [level=2] [ref=e254]
+              - generic [ref=e255]:
+                - heading "Support" [level=2] [ref=e256]: Support
+                - link "FAQ" [ref=e259] [cursor=pointer]:
+                  - /url: /en-AE/support/faq
+                  - heading "FAQ" [level=2] [ref=e260]
+              - generic [ref=e261]:
+                - heading "About Us" [level=2] [ref=e262]: About Us
+                - link "Blog" [ref=e265] [cursor=pointer]:
+                  - /url: /en-AE/about/blog
+                  - heading "Blog" [level=2] [ref=e266]
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - link "‌ Facebook" [ref=e269] [cursor=pointer]:
+                - /url: https://www.facebook.com/multibankgroup/
+                - generic [ref=e271]: ‌
+                - img "Facebook" [ref=e272]
+              - link "‌ Instagram" [ref=e273] [cursor=pointer]:
+                - /url: https://www.instagram.com/multibank_group/
+                - generic [ref=e275]: ‌
+                - img "Instagram" [ref=e276]
+              - link "‌ X Twitter Icon" [ref=e277] [cursor=pointer]:
+                - /url: https://x.com/multibankgroup
+                - generic [ref=e279]: ‌
+                - img "X Twitter Icon" [ref=e280]
+              - link "‌ LinkedIn" [ref=e281] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/multibankgroup/
+                - generic [ref=e283]: ‌
+                - img "LinkedIn" [ref=e284]
+              - link "‌ Telegram" [ref=e285] [cursor=pointer]:
+                - /url: https://t.me/MultiBank_io
+                - generic [ref=e287]: ‌
+                - img "Telegram" [ref=e288]
+              - link "‌ Telegramannouncment" [ref=e289] [cursor=pointer]:
+                - /url: https://t.me/MultiBankio_Announcements
+                - generic [ref=e291]: ‌
+                - img "Telegramannouncment" [ref=e292]
+            - generic [ref=e293]: 2025 Copyright. All Rights Reserved. MultiBank io.
+          - separator [ref=e294]
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - paragraph [ref=e297]: MEX Digital FZE, is a Virtual Asset Service Provider (VASP) registered in the UAE and has received Operational Approval from the Virtual Asset Regulatory Authority (VARA) to provide Spot Broker-Dealer and Spot Exchange services.
+              - heading "We accept:" [level=4] [ref=e298]
+              - generic [ref=e299]:
+                - generic [ref=e301]: ‌
+                - img "VisaMasterCard" [ref=e302]
+                - generic [ref=e304]: ‌
+                - img "UnionPay" [ref=e305]
+                - generic [ref=e307]: ‌
+                - img "PCI" [ref=e308]
+            - separator [ref=e309]
+            - generic [ref=e311]:
+              - text: "Risk Warning: Cryptocurrency trading may not be suitable for everyone as there are risks involved, therefore, seek professional financial advice from a suitable and licensed financial advisor before investing. Any advice contained in this email is general advice only and has been prepared without taking into account your objectives, financial situation or needs. Before acting on any advice in this email, MEX Digital recommends that you consider whether it is appropriate for your circumstances."
+              - text: "General Warning: The contents of this email are strictly confidential. If you are not the intended user and have received this email in error, please notify us and delete it from your system immediately because any use, including copying and disclosure of this email including any attachments is unauthorised and prohibited."
+              - text: We are authorised by the Virtual Assets Regulatory Authority (“VARA”) with the VARA registration number VL/24/06/001 to carry on the financial services of (i) exchange; (ii) broker dealer; in and from DWTC. The complete statement of what we are authorised to carry on, which may change from time to time, can be found on our listing on the VARA Register.
+  - alert [ref=e312]
+```

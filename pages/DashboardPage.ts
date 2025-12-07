@@ -54,18 +54,16 @@ async clickOnMenuWithDropDownByText(menuItem: string) {
 
 
   async validateTopMenuItems(menuItems: string[]) {
-    // First 2: Dashboard, Markets
     for (let i = 0; i < 2; i++) {
       const element = this.intialMenuWithoutDropdownoption.nth(i);
       console.log(`Checking non-dropdown menu item ${i}: "${menuItems[i]}"`);
       await expect(element).toHaveText(menuItems[i]);
     }
-    // Next 4: Trade
     const dropdownCount = await this.menuItemWithDropDown.count();
     console.log("dropdownCount is ", dropdownCount);
     for (let j = 0; j < dropdownCount; j++) {
       const element = this.menuItemWithDropDown.nth(j);
-      const expectedText = menuItems[j + 2]; // +2 to skip Dashboard/Markets
+      const expectedText = menuItems[j + 2]; 
       console.log(`Checking dropdown menu item ${j + 2}: "${expectedText}"`);
       await expect(element).toHaveText(expectedText);
     }
