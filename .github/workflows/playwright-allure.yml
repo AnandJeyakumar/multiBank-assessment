@@ -65,15 +65,13 @@ jobs:
           apt-get update -y
           apt-get install -y openjdk-17-jre
 
-      # --------- Allure generation (local, no Docker) ---------
       - name: Generate Allure Report
         if: always()
         run: |
+          rm -rf allure-report
           npx allure generate allure-results --clean
         continue-on-error: true
-      # ---------------------------------------------------------
 
-      # Upload Pages artifact
       - name: Upload Pages artifact (Allure)
         if: always()
         uses: actions/upload-pages-artifact@v3
