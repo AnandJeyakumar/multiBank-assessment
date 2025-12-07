@@ -11,7 +11,7 @@ export default defineConfig({
   reporter: [['list'], ['allure-playwright', { outputFolder: 'allure-results' }]],
   use: {
     baseURL : 'https://trade.multibank.io/',
-    headless: false, 
+    headless: true, 
     trace: 'on-first-retry',
     video: 'retain-on-failure', 
     screenshot: 'only-on-failure'
