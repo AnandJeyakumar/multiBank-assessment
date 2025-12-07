@@ -59,14 +59,13 @@ jobs:
           retention-days: 30
           if-no-files-found: ignore
 
-      # --------- FIXED Allure generation ---------
+      # --------- Allure generation (local, no Docker) ---------
       - name: Generate Allure Report
         if: always()
-        uses: actions/allure-report@v1
-        with:
-          results: allure-results
-          report: allure-report
-      # -------------------------------------------
+        run: |
+          npx allure generate allure-results --clean
+        continue-on-error: true
+      # ---------------------------------------------------------
 
       # Upload Pages artifact
       - name: Upload Pages artifact (Allure)
