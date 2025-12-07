@@ -22,8 +22,17 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] ,
-      viewport: { width: 1520, height: 1080 }
-      
+      viewport: { width: 1520, height: 1080 },
+      launchOptions: {
+        args: [
+          '--window-size=1520,1080',
+          '--disable-dev-shm-usage',
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-gpu'
+        ]
+      }
+
  },
     
     },
