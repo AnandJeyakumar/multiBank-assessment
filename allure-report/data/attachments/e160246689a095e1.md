@@ -1,0 +1,750 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://trade.multibank.io/
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Dashboard" [ref=e10] [cursor=pointer]:
+              - /url: /
+            - link "Markets" [ref=e11] [cursor=pointer]:
+              - /url: /markets
+            - generic [ref=e13]:
+              - generic [ref=e15] [cursor=pointer]:
+                - text: Trade
+                - img [ref=e17]
+              - generic [ref=e20]:
+                - link "Spot Trade crypto with advanced tools" [ref=e22] [cursor=pointer]:
+                  - /url: /trade/BTC_USD
+                  - generic [ref=e24]:
+                    - generic [ref=e25]:
+                      - text: Spot
+                      - generic [ref=e26]: Trade crypto with advanced tools
+                    - img [ref=e28]
+                - link "Instant Buy Buy Crypto Instantly" [ref=e31] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e33]:
+                    - generic [ref=e34]:
+                      - text: Instant Buy
+                      - generic [ref=e35]: Buy Crypto Instantly
+                    - img [ref=e37]
+                - link "Panic Sell Sell Assets Quickly" [ref=e40] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e42]:
+                    - generic [ref=e43]:
+                      - text: Panic Sell
+                      - generic [ref=e44]: Sell Assets Quickly
+                    - img [ref=e46]
+                - link "Convert Quickly swap any assets" [ref=e49] [cursor=pointer]:
+                  - /url: /trade/convert
+                  - generic [ref=e51]:
+                    - generic [ref=e52]:
+                      - text: Convert
+                      - generic [ref=e53]: Quickly swap any assets
+                    - img [ref=e55]
+            - generic [ref=e60] [cursor=pointer]:
+              - text: Features
+              - img [ref=e62]
+            - generic [ref=e67] [cursor=pointer]:
+              - text: About Us
+              - img [ref=e69]
+            - generic [ref=e74] [cursor=pointer]:
+              - text: Support
+              - img [ref=e76]
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - link "Log In" [ref=e80] [cursor=pointer]:
+                - /url: /login
+                - generic [ref=e81]: Log In
+              - link "Sign Up" [ref=e82] [cursor=pointer]:
+                - /url: /register
+                - generic [ref=e83]: Sign Up
+            - generic [ref=e89] [cursor=pointer]:
+              - img [ref=e91]
+              - text: EN
+              - img [ref=e94]
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]: Trade Crypto. Fast & Secure
+          - generic [ref=e101]: Buy and sell BTC, ETH, and top altcoins with confidence. Seamless spot trading on a high-speed, secure blockchain platform — built for performance, built for the future.
+        - link "Sign Up" [ref=e102] [cursor=pointer]:
+          - /url: /register?skipRegistration=true
+          - generic [ref=e103]: Sign Up
+          - img [ref=e105]
+      - generic [ref=e107]:
+        - img "header-bg" [ref=e109]
+        - img "hero-image" [ref=e111]
+    - generic [ref=e117]:
+      - generic [ref=e120]:
+        - heading [level=1]
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e124]:
+              - button "Spot" [ref=e126] [cursor=pointer]
+              - generic [ref=e127]:
+                - generic [ref=e130]:
+                  - button "Favorites" [ref=e131] [cursor=pointer]:
+                    - generic [ref=e132]: Favorites
+                    - img [ref=e134]
+                  - button "All" [ref=e136] [cursor=pointer]:
+                    - generic [ref=e137]: All
+                  - button "USDT" [ref=e138] [cursor=pointer]:
+                    - generic [ref=e139]: USDT
+                  - button "BTC" [ref=e140] [cursor=pointer]:
+                    - generic [ref=e141]: BTC
+                  - button "FIAT" [ref=e142] [cursor=pointer]:
+                    - generic [ref=e143]: FIAT
+                  - button "Themes" [ref=e144] [cursor=pointer]:
+                    - generic [ref=e145]: Themes
+                    - img [ref=e147]
+                - button [ref=e149] [cursor=pointer]:
+                  - img [ref=e151]
+            - generic [ref=e153]:
+              - table [ref=e158]:
+                - rowgroup [ref=e159]:
+                  - row "Pair Price 24h Change High Low Last 7 days" [ref=e160]:
+                    - columnheader [ref=e161]
+                    - columnheader "Pair" [ref=e162] [cursor=pointer]:
+                      - generic [ref=e164]: Pair
+                    - columnheader "Price" [ref=e165] [cursor=pointer]:
+                      - generic [ref=e167]: Price
+                    - columnheader "24h Change" [ref=e168] [cursor=pointer]:
+                      - generic [ref=e170]: 24h Change
+                    - columnheader "High" [ref=e171] [cursor=pointer]:
+                      - generic [ref=e173]: High
+                    - columnheader "Low" [ref=e174] [cursor=pointer]:
+                      - generic [ref=e176]: Low
+                    - columnheader "Last 7 days" [ref=e177] [cursor=pointer]:
+                      - generic [ref=e179]: Last 7 days
+                - rowgroup [ref=e180]:
+                  - row "BTC AED BTC-AED 335,114.14 2.03 % 336,870.77 322,255.91" [ref=e181] [cursor=pointer]:
+                    - cell [ref=e182]:
+                      - img [ref=e186]
+                    - cell "BTC AED BTC-AED" [ref=e188]:
+                      - generic [ref=e189]:
+                        - generic [ref=e190]:
+                          - img "BTC" [ref=e191]
+                          - img "AED" [ref=e192]
+                        - text: BTC-AED
+                    - cell "335,114.14" [ref=e193]
+                    - cell "2.03 %" [ref=e194]:
+                      - generic [ref=e195]:
+                        - img [ref=e197]
+                        - generic [ref=e199]: "2.03"
+                        - generic [ref=e200]: "%"
+                    - cell "336,870.77" [ref=e201]:
+                      - generic [ref=e203]: 336,870.77
+                    - cell "322,255.91" [ref=e204]:
+                      - generic [ref=e206]: 322,255.91
+                    - cell [ref=e207]:
+                      - region [ref=e209]:
+                        - img [ref=e210]
+                  - row "DAI AED DAI-AED 3.6703 0.02 % 3.70959 3.63269" [ref=e217] [cursor=pointer]:
+                    - cell [ref=e218]:
+                      - img [ref=e222]
+                    - cell "DAI AED DAI-AED" [ref=e224]:
+                      - generic [ref=e225]:
+                        - generic [ref=e226]:
+                          - img "DAI" [ref=e227]
+                          - img "AED" [ref=e228]
+                        - text: DAI-AED
+                    - cell "3.6703" [ref=e229]
+                    - cell "0.02 %" [ref=e230]:
+                      - generic [ref=e231]:
+                        - img [ref=e233]
+                        - generic [ref=e235]: "0.02"
+                        - generic [ref=e236]: "%"
+                    - cell "3.70959" [ref=e237]:
+                      - generic [ref=e239]: "3.70959"
+                    - cell "3.63269" [ref=e240]:
+                      - generic [ref=e242]: "3.63269"
+                    - cell [ref=e243]:
+                      - region [ref=e245]:
+                        - img [ref=e246]
+                  - row "ETH AED ETH-AED 11,508.15 3.37 % 11,563.97 10,766.8" [ref=e253] [cursor=pointer]:
+                    - cell [ref=e254]:
+                      - img [ref=e258]
+                    - cell "ETH AED ETH-AED" [ref=e260]:
+                      - generic [ref=e261]:
+                        - generic [ref=e262]:
+                          - img "ETH" [ref=e263]
+                          - img "AED" [ref=e264]
+                        - text: ETH-AED
+                    - cell "11,508.15" [ref=e265]
+                    - cell "3.37 %" [ref=e266]:
+                      - generic [ref=e267]:
+                        - img [ref=e269]
+                        - generic [ref=e271]: "3.37"
+                        - generic [ref=e272]: "%"
+                    - cell "11,563.97" [ref=e273]:
+                      - generic [ref=e275]: 11,563.97
+                    - cell "10,766.8" [ref=e276]:
+                      - generic [ref=e278]: 10,766.8
+                    - cell [ref=e279]:
+                      - region [ref=e281]:
+                        - img [ref=e282]
+                  - row "USDC AED USDC-AED 3.6727 0.02 % 3.673 3.671" [ref=e289] [cursor=pointer]:
+                    - cell [ref=e290]:
+                      - img [ref=e294]
+                    - cell "USDC AED USDC-AED" [ref=e296]:
+                      - generic [ref=e297]:
+                        - generic [ref=e298]:
+                          - img "USDC" [ref=e299]
+                          - img "AED" [ref=e300]
+                        - text: USDC-AED
+                    - cell "3.6727" [ref=e301]
+                    - cell "0.02 %" [ref=e302]:
+                      - generic [ref=e303]:
+                        - img [ref=e305]
+                        - generic [ref=e307]: "0.02"
+                        - generic [ref=e308]: "%"
+                    - cell "3.673" [ref=e309]:
+                      - generic [ref=e311]: "3.673"
+                    - cell "3.671" [ref=e312]:
+                      - generic [ref=e314]: "3.671"
+                    - cell [ref=e315]:
+                      - region [ref=e317]:
+                        - img [ref=e318]
+                  - row "USDT AED USDT-AED 3.67184 0.01 % 3.67221 3.67114" [ref=e325] [cursor=pointer]:
+                    - cell [ref=e326]:
+                      - img [ref=e330]
+                    - cell "USDT AED USDT-AED" [ref=e332]:
+                      - generic [ref=e333]:
+                        - generic [ref=e334]:
+                          - img "USDT" [ref=e335]
+                          - img "AED" [ref=e336]
+                        - text: USDT-AED
+                    - cell "3.67184" [ref=e337]
+                    - cell "0.01 %" [ref=e338]:
+                      - generic [ref=e339]:
+                        - img [ref=e341]
+                        - generic [ref=e343]: "0.01"
+                        - generic [ref=e344]: "%"
+                    - cell "3.67221" [ref=e345]:
+                      - generic [ref=e347]: "3.67221"
+                    - cell "3.67114" [ref=e348]:
+                      - generic [ref=e350]: "3.67114"
+                    - cell [ref=e351]:
+                      - region [ref=e353]:
+                        - img [ref=e354]
+                  - row "AAVE BTC AAVE-BTC 0.002122 1.24 % 0.002136 0.002062" [ref=e361] [cursor=pointer]:
+                    - cell [ref=e362]:
+                      - img [ref=e366]
+                    - cell "AAVE BTC AAVE-BTC" [ref=e368]:
+                      - generic [ref=e369]:
+                        - generic [ref=e370]:
+                          - img "AAVE" [ref=e371]
+                          - img "BTC" [ref=e372]
+                        - text: AAVE-BTC
+                    - cell "0.002122" [ref=e373]
+                    - cell "1.24 %" [ref=e374]:
+                      - generic [ref=e375]:
+                        - img [ref=e377]
+                        - generic [ref=e379]: "1.24"
+                        - generic [ref=e380]: "%"
+                    - cell "0.002136" [ref=e381]:
+                      - generic [ref=e383]: "0.002136"
+                    - cell "0.002062" [ref=e384]:
+                      - generic [ref=e386]: "0.002062"
+                    - cell [ref=e387]:
+                      - region [ref=e389]:
+                        - img [ref=e390]
+                  - row "ADA BTC ADA-BTC 0.00000471 2.17 % 0.00000477 0.00000461" [ref=e397] [cursor=pointer]:
+                    - cell [ref=e398]:
+                      - img [ref=e402]
+                    - cell "ADA BTC ADA-BTC" [ref=e404]:
+                      - generic [ref=e405]:
+                        - generic [ref=e406]:
+                          - img "ADA" [ref=e407]
+                          - img "BTC" [ref=e408]
+                        - text: ADA-BTC
+                    - cell "0.00000471" [ref=e409]
+                    - cell "2.17 %" [ref=e410]:
+                      - generic [ref=e411]:
+                        - img [ref=e413]
+                        - generic [ref=e415]: "2.17"
+                        - generic [ref=e416]: "%"
+                    - cell "0.00000477" [ref=e417]:
+                      - generic [ref=e419]: "0.00000477"
+                    - cell "0.00000461" [ref=e420]:
+                      - generic [ref=e422]: "0.00000461"
+                    - cell [ref=e423]:
+                      - region [ref=e425]:
+                        - img [ref=e426]
+                  - row "AVAX BTC AVAX-BTC 0.00015059 1.09 % 0.00015132 0.00014722" [ref=e433] [cursor=pointer]:
+                    - cell [ref=e434]:
+                      - img [ref=e438]
+                    - cell "AVAX BTC AVAX-BTC" [ref=e440]:
+                      - generic [ref=e441]:
+                        - generic [ref=e442]:
+                          - img "AVAX" [ref=e443]
+                          - img "BTC" [ref=e444]
+                        - text: AVAX-BTC
+                    - cell "0.00015059" [ref=e445]
+                    - cell "1.09 %" [ref=e446]:
+                      - generic [ref=e447]:
+                        - img [ref=e449]
+                        - generic [ref=e451]: "1.09"
+                        - generic [ref=e452]: "%"
+                    - cell "0.00015132" [ref=e453]:
+                      - generic [ref=e455]: "0.00015132"
+                    - cell "0.00014722" [ref=e456]:
+                      - generic [ref=e458]: "0.00014722"
+                    - cell [ref=e459]:
+                      - region [ref=e461]:
+                        - img [ref=e462]
+                  - row "BCH BTC BCH-BTC 0.006526 1.30 % 0.006664 0.006439" [ref=e469] [cursor=pointer]:
+                    - cell [ref=e470]:
+                      - img [ref=e474]
+                    - cell "BCH BTC BCH-BTC" [ref=e476]:
+                      - generic [ref=e477]:
+                        - generic [ref=e478]:
+                          - img "BCH" [ref=e479]
+                          - img "BTC" [ref=e480]
+                        - text: BCH-BTC
+                    - cell "0.006526" [ref=e481]
+                    - cell "1.30 %" [ref=e482]:
+                      - generic [ref=e483]:
+                        - img [ref=e485]
+                        - generic [ref=e487]: "1.30"
+                        - generic [ref=e488]: "%"
+                    - cell "0.006664" [ref=e489]:
+                      - generic [ref=e491]: "0.006664"
+                    - cell "0.006439" [ref=e492]:
+                      - generic [ref=e494]: "0.006439"
+                    - cell [ref=e495]:
+                      - region [ref=e497]:
+                        - img [ref=e498]
+                  - row "DOGE BTC DOGE-BTC 0.00000156 0.64 % 0.00000158 0.00000153" [ref=e505] [cursor=pointer]:
+                    - cell [ref=e506]:
+                      - img [ref=e510]
+                    - cell "DOGE BTC DOGE-BTC" [ref=e512]:
+                      - generic [ref=e513]:
+                        - generic [ref=e514]:
+                          - img "DOGE" [ref=e515]
+                          - img "BTC" [ref=e516]
+                        - text: DOGE-BTC
+                    - cell "0.00000156" [ref=e517]
+                    - cell "0.64 %" [ref=e518]:
+                      - generic [ref=e519]:
+                        - img [ref=e521]
+                        - generic [ref=e523]: "0.64"
+                        - generic [ref=e524]: "%"
+                    - cell "0.00000158" [ref=e525]:
+                      - generic [ref=e527]: "0.00000158"
+                    - cell "0.00000153" [ref=e528]:
+                      - generic [ref=e530]: "0.00000153"
+                    - cell [ref=e531]:
+                      - region [ref=e533]:
+                        - img [ref=e534]
+                  - row "DOT BTC DOT-BTC 0.00002344 1.60 % 0.00002404 0.0000232" [ref=e541] [cursor=pointer]:
+                    - cell [ref=e542]:
+                      - img [ref=e546]
+                    - cell "DOT BTC DOT-BTC" [ref=e548]:
+                      - generic [ref=e549]:
+                        - generic [ref=e550]:
+                          - img "DOT" [ref=e551]
+                          - img "BTC" [ref=e552]
+                        - text: DOT-BTC
+                    - cell "0.00002344" [ref=e553]
+                    - cell "1.60 %" [ref=e554]:
+                      - generic [ref=e555]:
+                        - img [ref=e557]
+                        - generic [ref=e559]: "1.60"
+                        - generic [ref=e560]: "%"
+                    - cell "0.00002404" [ref=e561]:
+                      - generic [ref=e563]: "0.00002404"
+                    - cell "0.0000232" [ref=e564]:
+                      - generic [ref=e566]: "0.0000232"
+                    - cell [ref=e567]:
+                      - region [ref=e569]:
+                        - img [ref=e570]
+                  - row "ETH BTC ETH-BTC 0.034322 1.27 % 0.034374 0.033249" [ref=e577] [cursor=pointer]:
+                    - cell [ref=e578]:
+                      - img [ref=e582]
+                    - cell "ETH BTC ETH-BTC" [ref=e584]:
+                      - generic [ref=e585]:
+                        - generic [ref=e586]:
+                          - img "ETH" [ref=e587]
+                          - img "BTC" [ref=e588]
+                        - text: ETH-BTC
+                    - cell "0.034322" [ref=e589]
+                    - cell "1.27 %" [ref=e590]:
+                      - generic [ref=e591]:
+                        - img [ref=e593]
+                        - generic [ref=e595]: "1.27"
+                        - generic [ref=e596]: "%"
+                    - cell "0.034374" [ref=e597]:
+                      - generic [ref=e599]: "0.034374"
+                    - cell "0.033249" [ref=e600]:
+                      - generic [ref=e602]: "0.033249"
+                    - cell [ref=e603]:
+                      - region [ref=e605]:
+                        - img [ref=e606]
+                  - row [ref=e613]:
+                    - cell [ref=e614]
+              - button "Show More" [ref=e616] [cursor=pointer]:
+                - generic [ref=e617]: Show More
+                - img [ref=e619]
+          - generic [ref=e621]:
+            - generic [ref=e623]:
+              - heading "Pay Trading Fees with MBG" [level=5] [ref=e624]
+              - paragraph [ref=e625]: Instead of paying trading fees in base or quote currency, pay an equivalent amount with MBG.
+              - generic [ref=e626] [cursor=pointer]:
+                - text: Learn More
+                - img [ref=e628]
+            - generic [ref=e631]:
+              - heading "Market Sentiment" [level=4] [ref=e632]
+              - generic [ref=e633]:
+                - img [ref=e634]
+                - generic [ref=e648]:
+                  - generic [ref=e649]: "20"
+                  - generic [ref=e650]: Extreme Fear Index
+            - generic [ref=e651]:
+              - generic [ref=e654]:
+                - button "Top Gainers" [ref=e655] [cursor=pointer]:
+                  - generic [ref=e656]: Top Gainers
+                - button "Top Losers" [ref=e657] [cursor=pointer]:
+                  - generic [ref=e658]: Top Losers
+              - table [ref=e664]:
+                - rowgroup:
+                  - row
+                - rowgroup [ref=e665]:
+                  - row "ADA Cardano ADA 4.12% $ 0.4301" [ref=e666]:
+                    - cell "ADA Cardano ADA" [ref=e667]:
+                      - generic [ref=e669]:
+                        - img "ADA" [ref=e670]
+                        - generic [ref=e671]:
+                          - generic [ref=e672]: Cardano
+                          - generic [ref=e673]: ADA
+                    - cell "4.12%" [ref=e674]:
+                      - generic [ref=e676]:
+                        - img [ref=e678]
+                        - generic [ref=e680]: 4.12%
+                    - cell "$ 0.4301" [ref=e681]
+                  - row "AAVE Aave AAVE 3.35% $ 194.19" [ref=e682]:
+                    - cell "AAVE Aave AAVE" [ref=e683]:
+                      - generic [ref=e685]:
+                        - img "AAVE" [ref=e686]
+                        - generic [ref=e687]:
+                          - generic [ref=e688]: Aave
+                          - generic [ref=e689]: AAVE
+                    - cell "3.35%" [ref=e690]:
+                      - generic [ref=e692]:
+                        - img [ref=e694]
+                        - generic [ref=e696]: 3.35%
+                    - cell "$ 194.19" [ref=e697]
+                  - row "XRP XRP XRP 3.29% $ 2.0874" [ref=e698]:
+                    - cell "XRP XRP XRP" [ref=e699]:
+                      - generic [ref=e701]:
+                        - img "XRP" [ref=e702]
+                        - generic [ref=e703]:
+                          - generic [ref=e704]: XRP
+                          - generic [ref=e705]: XRP
+                    - cell "3.29%" [ref=e706]:
+                      - generic [ref=e708]:
+                        - img [ref=e710]
+                        - generic [ref=e712]: 3.29%
+                    - cell "$ 2.0874" [ref=e713]
+                  - row "ETH Ethereum ETH 2.97% $ 3,133.60" [ref=e714]:
+                    - cell "ETH Ethereum ETH" [ref=e715]:
+                      - generic [ref=e717]:
+                        - img "ETH" [ref=e718]
+                        - generic [ref=e719]:
+                          - generic [ref=e720]: Ethereum
+                          - generic [ref=e721]: ETH
+                    - cell "2.97%" [ref=e722]:
+                      - generic [ref=e724]:
+                        - img [ref=e726]
+                        - generic [ref=e728]: 2.97%
+                    - cell "$ 3,133.60" [ref=e729]
+                  - row "AVAX Avalanche AVAX 2.85% $ 13.76" [ref=e730]:
+                    - cell "AVAX Avalanche AVAX" [ref=e731]:
+                      - generic [ref=e733]:
+                        - img "AVAX" [ref=e734]
+                        - generic [ref=e735]:
+                          - generic [ref=e736]: Avalanche
+                          - generic [ref=e737]: AVAX
+                    - cell "2.85%" [ref=e738]:
+                      - generic [ref=e740]:
+                        - img [ref=e742]
+                        - generic [ref=e744]: 2.85%
+                    - cell "$ 13.76" [ref=e745]
+      - generic [ref=e746]:
+        - heading "Investment Opportunities" [level=1] [ref=e747]
+        - generic [ref=e748]:
+          - generic [ref=e749]:
+            - generic [ref=e750]:
+              - generic [ref=e751]:
+                - generic [ref=e752]:
+                  - img "title" [ref=e754]
+                  - generic [ref=e755]: Backed by $29B in Real Assets Across MultiBank Group's 4 Pillars
+                - link "Buy Now" [ref=e756] [cursor=pointer]:
+                  - /url: /trade/MBG_USDT
+                  - generic [ref=e757]: Buy Now
+                  - img [ref=e759]
+              - img "icon" [ref=e762]
+            - img "bg" [ref=e763]
+          - generic [ref=e764]:
+            - generic [ref=e765]:
+              - generic [ref=e766]:
+                - generic [ref=e767]:
+                  - img "title" [ref=e769]
+                  - generic [ref=e770]: Invest in tokenized Real World Assets
+                - generic [ref=e771]: Coming Soon
+              - img "icon" [ref=e773]
+            - img "bg" [ref=e774]
+      - generic [ref=e775]:
+        - heading "Quick Access Tools" [level=1] [ref=e776]
+        - generic [ref=e777]:
+          - generic [ref=e778]:
+            - generic [ref=e779]:
+              - heading "Convert Your Assets" [level=4] [ref=e780]
+              - generic [ref=e781]: Easily convert one cryptocurrency to another, with no fees.
+            - button "Convert" [ref=e782] [cursor=pointer]:
+              - generic [ref=e783]: Convert
+          - generic [ref=e784]:
+            - img [ref=e786] [cursor=pointer]
+            - generic [ref=e788]:
+              - heading "Quick Buy Crypto" [level=4] [ref=e789]
+              - generic [ref=e790]: Buy Crypto Instantly using your credit or debit card.
+            - button "Instant Buy" [ref=e791] [cursor=pointer]:
+              - generic [ref=e792]: Instant Buy
+          - generic [ref=e793]:
+            - img [ref=e795] [cursor=pointer]
+            - generic [ref=e797]:
+              - heading "Quick Sell Your Assets" [level=4] [ref=e798]
+              - generic [ref=e799]: Panic Sell is a powerful tool that allows you to sell all your crypto assets in just one click.
+            - button "Panic Sell" [ref=e800] [cursor=pointer]:
+              - generic [ref=e801]: Panic Sell
+      - generic [ref=e802]:
+        - generic [ref=e803]:
+          - heading "Trade on the Go" [level=1] [ref=e804]
+          - generic [ref=e805]:
+            - generic [ref=e806]:
+              - generic [ref=e807]:
+                - generic [ref=e808]: Download MultiBank.io App
+                - paragraph [ref=e809]: Stay updated on recent prices using the mobile app.
+                - generic [ref=e810]:
+                  - link "app-store Available on App Store" [ref=e811] [cursor=pointer]:
+                    - /url: https://apps.apple.com/ae/app/multibank-io-buy-btc-crypto/id1592119946
+                    - generic [ref=e812]:
+                      - img "app-store" [ref=e813]
+                      - generic [ref=e814]:
+                        - paragraph [ref=e815]: Available on
+                        - heading "App Store" [level=3] [ref=e816]
+                  - link "google-play Available on Google Play" [ref=e817] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=com.multibank.app&pli=1
+                    - generic [ref=e818]:
+                      - img "google-play" [ref=e819]
+                      - generic [ref=e820]:
+                        - paragraph [ref=e821]: Available on
+                        - heading "Google Play" [level=3] [ref=e822]
+              - generic [ref=e823]:
+                - img "qr-code" [ref=e824]
+                - generic [ref=e825]:
+                  - paragraph [ref=e826]: Scan now to download
+                  - paragraph [ref=e827]: iOS & Android
+            - img "bg" [ref=e828]
+        - generic [ref=e829]:
+          - heading "Market News" [level=1] [ref=e830]
+          - generic [ref=e835]:
+            - generic [ref=e836]:
+              - generic [ref=e837]: Top stories
+              - generic [ref=e838]: Dec 07, 2025
+            - generic [ref=e839]:
+              - generic [ref=e842] [cursor=pointer]:
+                - generic [ref=e843]: "Vladimir Putin Said Nothing Could Ban Bitcoin A Year Ago: Here's How Moscow Has Used Crypto Since Then To Overcome US Sanctions"
+                - generic [ref=e844]:
+                  - generic [ref=e845]: Dec 07, 2025
+                  - img [ref=e847]
+                  - generic [ref=e849]: Aniket Verma
+              - generic [ref=e853] [cursor=pointer]:
+                - generic [ref=e854]: Coinbase Says Crypto Market Poised For Recovery As Liquidity Improves, AI Bubble Concerns Pass
+                - generic [ref=e855]:
+                  - generic [ref=e856]: Dec 07, 2025
+                  - img [ref=e858]
+                  - generic [ref=e860]: Rounak Jain
+              - generic [ref=e864] [cursor=pointer]:
+                - generic [ref=e865]: "Peter Schiff Says Gold Has Outperformed Equities By More Than Two Times In Nearly 6 Decades: 'The Good News Is…'"
+                - generic [ref=e866]:
+                  - generic [ref=e867]: Dec 07, 2025
+                  - img [ref=e869]
+                  - generic [ref=e871]: Rounak Jain
+              - generic [ref=e875] [cursor=pointer]:
+                - generic [ref=e876]: "Public Companies' Crypto Strategy Backfires: From 2600% Gains To 86% Losses"
+                - generic [ref=e877]:
+                  - generic [ref=e878]: Dec 07, 2025
+                  - img [ref=e880]
+                  - generic [ref=e882]: Bibhu Pattnaik
+              - generic [ref=e886] [cursor=pointer]:
+                - generic [ref=e887]: Bitcoin Stuck Below $90,000 As Ethereum, XRP, Dogecoin Extend Losses
+                - generic [ref=e888]:
+                  - generic [ref=e889]: Dec 06, 2025
+                  - img [ref=e891]
+                  - generic [ref=e893]: Khyathi Dalal
+              - generic [ref=e897] [cursor=pointer]:
+                - generic [ref=e898]: Twenty One Capital Set To Make History On NYSE With $4B Treasury
+                - generic [ref=e899]:
+                  - generic [ref=e900]: Dec 06, 2025
+                  - img [ref=e902]
+                  - generic [ref=e904]: Hillary Remy
+              - generic [ref=e908] [cursor=pointer]:
+                - generic [ref=e909]: Sui Token Gets Wall Street Debut With 21Shares' Leveraged ETF
+                - generic [ref=e910]:
+                  - generic [ref=e911]: Dec 06, 2025
+                  - img [ref=e913]
+                  - generic [ref=e915]: Chandrima Sanyal
+              - generic [ref=e919] [cursor=pointer]:
+                - generic [ref=e920]: Terra Founder Do Kwon Faces Possible 12-Year Prison Term As DOJ Pushes For Maximum Sentence
+                - generic [ref=e921]:
+                  - generic [ref=e922]: Dec 05, 2025
+                  - img [ref=e924]
+                  - generic [ref=e926]: Khyathi Dalal
+              - generic [ref=e930] [cursor=pointer]:
+                - generic [ref=e931]: "S&P 500 Flirts With Records, Netflix Drops After Warner Bros Deal: What's Moving Markets Friday?"
+                - generic [ref=e932]:
+                  - generic [ref=e933]: Dec 05, 2025
+                  - img [ref=e935]
+                  - generic [ref=e937]: Piero Cingari
+              - generic [ref=e941] [cursor=pointer]:
+                - generic [ref=e942]: "If Strategy Holds Its Bitcoin, MSTR's Drawdown Will Be Muted: Report"
+                - generic [ref=e943]:
+                  - generic [ref=e944]: Dec 05, 2025
+                  - img [ref=e946]
+                  - generic [ref=e948]: Khyathi Dalal
+              - generic [ref=e952] [cursor=pointer]:
+                - generic [ref=e953]: Cardano Crashes 7%, Solana 5% — XRP Is Next If This Support Breaks
+                - generic [ref=e954]:
+                  - generic [ref=e955]: Dec 05, 2025
+                  - img [ref=e957]
+                  - generic [ref=e959]: Parshwa Turakhiya
+              - generic [ref=e963] [cursor=pointer]:
+                - generic [ref=e964]: Trump's Bitcoin, ETH, XRP Reserve Isn't Happening Anymore In 2025, Polymarket Traders Predict
+                - generic [ref=e965]:
+                  - generic [ref=e966]: Dec 05, 2025
+                  - img [ref=e968]
+                  - generic [ref=e970]: Parshwa Turakhiya
+              - generic [ref=e974] [cursor=pointer]:
+                - generic [ref=e975]: BlackRock's Larry Fink Says Sovereign Wealth Funds Are Buying Bitcoin 'With Purpose'
+                - generic [ref=e976]:
+                  - generic [ref=e977]: Dec 05, 2025
+                  - img [ref=e979]
+                  - generic [ref=e981]: Khyathi Dalal
+              - generic [ref=e985] [cursor=pointer]:
+                - generic [ref=e986]: BlackRock's IBIT Bitcoin ETF Sees Record $2.7 Billion Exodus
+                - generic [ref=e987]:
+                  - generic [ref=e988]: Dec 05, 2025
+                  - img [ref=e990]
+                  - generic [ref=e992]: Parshwa Turakhiya
+              - generic [ref=e996] [cursor=pointer]:
+                - generic [ref=e997]: XRP Approaches $2 Again—Here's Why It Just Can't Catch A Break
+                - generic [ref=e998]:
+                  - generic [ref=e999]: Dec 05, 2025
+                  - img [ref=e1001]
+                  - generic [ref=e1003]: Khyathi Dalal
+      - generic [ref=e1007]:
+        - button [ref=e1008] [cursor=pointer]:
+          - img [ref=e1010]
+        - generic [ref=e1012]:
+          - generic [ref=e1014]:
+            - generic [ref=e1017]:
+              - generic [ref=e1018]:
+                - generic [ref=e1019]: Use Instant Buy to get your first Crypto with your card!
+                - generic [ref=e1020] [cursor=pointer]:
+                  - generic [ref=e1021]: Buy Crypto
+                  - img [ref=e1023]
+              - img [ref=e1025]
+            - generic [ref=e1028]:
+              - generic [ref=e1029]:
+                - generic [ref=e1030]: Deposit using Card or Wire Transfer
+                - generic [ref=e1031] [cursor=pointer]:
+                  - generic [ref=e1032]: Deposit
+                  - img [ref=e1034]
+              - img [ref=e1036]
+            - generic [ref=e1039]:
+              - generic [ref=e1040]:
+                - generic [ref=e1041]:
+                  - text: Contact our
+                  - generic [ref=e1042]: 24/7 Customer Support
+                  - text: for any inquiries
+                - generic [ref=e1043] [cursor=pointer]:
+                  - generic [ref=e1044]: Contact support
+                  - img [ref=e1046]
+              - img [ref=e1048]
+            - generic [ref=e1051]:
+              - generic [ref=e1052]:
+                - generic [ref=e1053]: Use Instant Buy to get your first Crypto with your card!
+                - generic [ref=e1054] [cursor=pointer]:
+                  - generic [ref=e1055]: Buy Crypto
+                  - img [ref=e1057]
+              - img [ref=e1059]
+            - generic [ref=e1062]:
+              - generic [ref=e1063]:
+                - generic [ref=e1064]: Deposit using Card or Wire Transfer
+                - generic [ref=e1065] [cursor=pointer]:
+                  - generic [ref=e1066]: Deposit
+                  - img [ref=e1068]
+              - img [ref=e1070]
+            - generic [ref=e1073]:
+              - generic [ref=e1074]:
+                - generic [ref=e1075]:
+                  - text: Contact our
+                  - generic [ref=e1076]:
+                    - text: 24/7 Customer
+                    - text: Support
+                  - text: for any inquiries
+                - generic [ref=e1077] [cursor=pointer]:
+                  - generic [ref=e1078]: Contact support
+                  - img [ref=e1080]
+              - img "Banner image" [ref=e1082]
+            - generic [ref=e1085]:
+              - generic [ref=e1086]:
+                - generic [ref=e1087]: Use Instant Buy to get your first Crypto with your card!
+                - generic [ref=e1088] [cursor=pointer]:
+                  - generic [ref=e1089]: Buy Crypto
+                  - img [ref=e1091]
+              - img [ref=e1093]
+            - generic [ref=e1096]:
+              - generic [ref=e1097]:
+                - generic [ref=e1098]: Deposit using Card or Wire Transfer
+                - generic [ref=e1099] [cursor=pointer]:
+                  - generic [ref=e1100]: Deposit
+                  - img [ref=e1102]
+              - img [ref=e1104]
+            - generic [ref=e1107]:
+              - generic [ref=e1108]:
+                - generic [ref=e1109]:
+                  - text: Contact our
+                  - generic [ref=e1110]: 24/7 Customer Support
+                  - text: for any inquiries
+                - generic [ref=e1111] [cursor=pointer]:
+                  - generic [ref=e1112]: Contact support
+                  - img [ref=e1114]
+              - img [ref=e1116]
+          - list [ref=e1117]:
+            - listitem [ref=e1118]:
+              - img [ref=e1121] [cursor=pointer]
+            - listitem [ref=e1123]:
+              - img [ref=e1126] [cursor=pointer]
+            - listitem [ref=e1128]:
+              - img [ref=e1131] [cursor=pointer]
+        - button [ref=e1133] [cursor=pointer]:
+          - img [ref=e1135]
+  - alert [ref=e1137]
+  - generic:
+    - generic:
+      - menu:
+        - menuitem: Legacy
+        - menuitem: DeFi
+        - menuitem: Stablecoin
+  - iframe [ref=e1139]:
+    - main [ref=f6e2]:
+      - button "Open LiveChat chat widget" [ref=f6e6] [cursor=pointer]:
+        - img [ref=f6e8]
+```

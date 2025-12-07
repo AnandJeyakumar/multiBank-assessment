@@ -9,10 +9,13 @@ test.describe('Navigation & Layout', () => {
     await dashboard.validateTopMenuItems(menuData.menu);
     await dashboard.clickOnMenuWithDropDownByText(menuData.tradeMenu);
     await dashboard.validateSubMenuItems(menuData.tradeSubMenuItem);
+    await dashboard.clickOnMenuWithDropDownByText(menuData.tradeMenu);
     await dashboard.clickOnMenuWithDropDownByText(menuData.featureMenu);
     await dashboard.validateSubMenuItems(menuData.featureMenuSubItems);
+    await dashboard.clickOnMenuWithDropDownByText(menuData.featureMenu);
     await dashboard.clickOnMenuWithDropDownByText(menuData.aboutUsMenu);
     await dashboard.validateSubMenuItems(menuData.aboutUsMenuSubItems);
+    await dashboard.clickOnMenuWithDropDownByText(menuData.aboutUsMenu);
     await dashboard.clickOnMenuWithDropDownByText(menuData.supportMenu);
     await dashboard.validateSubMenuItems(menuData.supportMenuSubItems);
   });
@@ -51,14 +54,12 @@ test.describe('Navigation & Layout', () => {
     await dashboard.clickOnSubMenuItemByText(menuData.spotExchangeSubMenu);
     await feature_spotExchange.validateSpotExchangePageHeaderText(); 
 
-    await dashboard.goto();
-
 
 
   });
 
 
-  test('Trade > Spot opens with correct default pair', async ({ dashboard , spot }) => {
+  test('TC03 Trade > Spot opens with correct default pair', async ({ dashboard , spot }) => {
   await dashboard.clickOnMenuWithDropDownByText(menuData.tradeMenu);
   await dashboard.clickOnSubMenuItemByText(menuData.spotSubMenu);
   await spot.validateTradePair();
@@ -67,13 +68,13 @@ test.describe('Navigation & Layout', () => {
 });
 
 
-test('Validate marketing banner and download links', async ({ dashboard  }) => {
+test('TC04 Validate marketing banner and download links', async ({ dashboard  }) => {
   await dashboard.validateMarketingBannerVisible();
   await dashboard.validateDownloadLinks();
 
 });
 
-test('Validate About Us Page', async ({ dashboard , aboutUs }) => {
+test.only('TC05 Validate About Us Page', async ({ dashboard , aboutUs }) => {
   await dashboard.clickOnMenuWithDropDownByText(menuData.aboutUsMenu);
   await dashboard.clickOnSubMenuItemByText(menuData.whyMultiBankSubMenu);
   await aboutUs.validateAboutUsPageContent();

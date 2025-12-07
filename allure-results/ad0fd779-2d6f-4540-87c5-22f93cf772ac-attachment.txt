@@ -1,0 +1,17 @@
+Checking non-dropdown menu item 0: "Dashboard"
+Checking non-dropdown menu item 1: "Markets"
+dropdownCount is  4
+Checking dropdown menu item 2: "Trade"
+Checking dropdown menu item 3: "Features"
+Checking dropdown menu item 4: "About Us"
+Checking dropdown menu item 5: "Support"
+Inside clickOnMenuWithDropDownByText Trade
+Checking if submenu contains: "Spot" → Yes
+Checking if submenu contains: "Instant Buy" → Yes
+Checking if submenu contains: "Panic Sell" → Yes
+Checking if submenu contains: "Convert" → Yes
+Inside clickOnMenuWithDropDownByText Features
+Checking if submenu contains: "Spot Exchange" → Yes
+Checking if submenu contains: "Institutional" → Yes
+Checking if submenu contains: "Buy & Sell" → Yes
+Inside clickOnMenuWithDropDownByText About Us

@@ -1,0 +1,27 @@
+Checking non-dropdown menu item 0: "Dashboard"
+Checking non-dropdown menu item 1: "Markets"
+dropdownCount is  4
+Checking dropdown menu item 2: "Trade"
+Checking dropdown menu item 3: "Features"
+Checking dropdown menu item 4: "About Us"
+Checking dropdown menu item 5: "Support"
+Inside clickOnMenuWithDropDownByText Trade
+Checking Sub menu item 0: "Spot"
+Checking Sub menu item 1: "Instant Buy"
+Checking Sub menu item 2: "Panic Sell"
+Checking Sub menu item 3: "Convert"
+Inside clickOnMenuWithDropDownByText Features
+Checking Sub menu item 0: "Spot Exchange"
+Checking Sub menu item 1: "Institutional"
+Checking Sub menu item 2: "Buy & Sell"
+Inside clickOnMenuWithDropDownByText About Us
+Checking Sub menu item 0: "Why Multibank?"
+Checking Sub menu item 1: "Global Presence"
+Checking Sub menu item 2: "Management"
+Checking Sub menu item 3: "Awards"
+Checking Sub menu item 4: "Sponsorship"
+Checking Sub menu item 5: "Blog"
+Checking Sub menu item 6: "Milestones"
+Inside clickOnMenuWithDropDownByText Support
+Checking Sub menu item 0: "Contact Us"
+Checking Sub menu item 1: "FAQs"

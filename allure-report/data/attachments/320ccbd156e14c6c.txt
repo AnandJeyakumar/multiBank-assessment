@@ -1,0 +1,137 @@
+Checking non-dropdown menu item 0: "Dashboard"
+Checking non-dropdown menu item 1: "Markets"
+dropdownCount is  4
+Checking dropdown menu item 2: "Trade"
+Checking dropdown menu item 3: "Features"
+Checking dropdown menu item 4: "About Us"
+Checking dropdown menu item 5: "Support"
+Inside clickOnMenuWithDropDownByText Trade
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Spot" → Yes
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Instant Buy" → Yes
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Panic Sell" → Yes
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Convert" → Yes
+Inside clickOnMenuWithDropDownByText Features
+Actual SubMenu Items: [
+  'Spot ExchangeTrade digital currencies',
+  'InstitutionalAccess the full institutional package',
+  'Buy & SellThe fastest way to buy crypto'
+]
+Checking if submenu contains: "Spot Exchange" → Yes
+Actual SubMenu Items: [
+  'Spot ExchangeTrade digital currencies',
+  'InstitutionalAccess the full institutional package',
+  'Buy & SellThe fastest way to buy crypto'
+]
+Checking if submenu contains: "Institutional" → Yes
+Actual SubMenu Items: [
+  'Spot ExchangeTrade digital currencies',
+  'InstitutionalAccess the full institutional package',
+  'Buy & SellThe fastest way to buy crypto'
+]
+Checking if submenu contains: "Buy & Sell" → Yes
+Inside clickOnMenuWithDropDownByText About Us
+Actual SubMenu Items: [
+  'Why Multibank?Discover why thousands of clients trust us',
+  'Global PresenceMaintaining over 20 offices worldwide',
+  'ManagementMeet our experts in the financial markets',
+  'AwardsRecognized by the financial industry',
+  'SponsorshipSharing vision & values',
+  'BlogStay up to date with market & company news',
+  'MilestonesA track record of excellence since 2005'
+]
+Checking if submenu contains: "Why Multibank?" → Yes
+Actual SubMenu Items: [
+  'Why Multibank?Discover why thousands of clients trust us',
+  'Global PresenceMaintaining over 20 offices worldwide',
+  'ManagementMeet our experts in the financial markets',
+  'AwardsRecognized by the financial industry',
+  'SponsorshipSharing vision & values',
+  'BlogStay up to date with market & company news',
+  'MilestonesA track record of excellence since 2005'
+]
+Checking if submenu contains: "Global Presence" → Yes
+Actual SubMenu Items: [
+  'Why Multibank?Discover why thousands of clients trust us',
+  'Global PresenceMaintaining over 20 offices worldwide',
+  'ManagementMeet our experts in the financial markets',
+  'AwardsRecognized by the financial industry',
+  'SponsorshipSharing vision & values',
+  'BlogStay up to date with market & company news',
+  'MilestonesA track record of excellence since 2005'
+]
+Checking if submenu contains: "Management" → Yes
+Actual SubMenu Items: [
+  'Why Multibank?Discover why thousands of clients trust us',
+  'Global PresenceMaintaining over 20 offices worldwide',
+  'ManagementMeet our experts in the financial markets',
+  'AwardsRecognized by the financial industry',
+  'SponsorshipSharing vision & values',
+  'BlogStay up to date with market & company news',
+  'MilestonesA track record of excellence since 2005'
+]
+Checking if submenu contains: "Awards" → Yes
+Actual SubMenu Items: [
+  'Why Multibank?Discover why thousands of clients trust us',
+  'Global PresenceMaintaining over 20 offices worldwide',
+  'ManagementMeet our experts in the financial markets',
+  'AwardsRecognized by the financial industry',
+  'SponsorshipSharing vision & values',
+  'BlogStay up to date with market & company news',
+  'MilestonesA track record of excellence since 2005'
+]
+Checking if submenu contains: "Sponsorship" → Yes
+Actual SubMenu Items: [
+  'Why Multibank?Discover why thousands of clients trust us',
+  'Global PresenceMaintaining over 20 offices worldwide',
+  'ManagementMeet our experts in the financial markets',
+  'AwardsRecognized by the financial industry',
+  'SponsorshipSharing vision & values',
+  'BlogStay up to date with market & company news',
+  'MilestonesA track record of excellence since 2005'
+]
+Checking if submenu contains: "Blog" → Yes
+Actual SubMenu Items: [
+  'Why Multibank?Discover why thousands of clients trust us',
+  'Global PresenceMaintaining over 20 offices worldwide',
+  'ManagementMeet our experts in the financial markets',
+  'AwardsRecognized by the financial industry',
+  'SponsorshipSharing vision & values',
+  'BlogStay up to date with market & company news',
+  'MilestonesA track record of excellence since 2005'
+]
+Checking if submenu contains: "Milestones" → Yes
+Inside clickOnMenuWithDropDownByText Support
+Actual SubMenu Items: [
+  'Contact UsNeed further help?',
+  'FAQsFind the answers to your questions'
+]
+Checking if submenu contains: "Contact Us" → Yes
+Actual SubMenu Items: [
+  'Contact UsNeed further help?',
+  'FAQsFind the answers to your questions'
+]
+Checking if submenu contains: "FAQs" → Yes

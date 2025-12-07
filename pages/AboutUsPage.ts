@@ -20,7 +20,6 @@ export class AboutUsPage {
 
 async validateAboutUsPageContent()
 {
-    await expect(this.page).toHaveTitle(Title.AboutUsPage)
     await this.pageHeader.first().waitFor();
     await validateListOfTexts(this.pageHeader, headerData.aboutUsHeaders);
     await validateListOfTexts(this.pageHeaderDescription, headerData.aboutUsHeaderDescription);

@@ -1,0 +1,56 @@
+Checking non-dropdown menu item 0: "Dashboard"
+Checking non-dropdown menu item 1: "Markets"
+dropdownCount is  4
+Checking dropdown menu item 2: "Trade"
+Checking dropdown menu item 3: "Features"
+Checking dropdown menu item 4: "About Us"
+Checking dropdown menu item 5: "Support"
+Inside clickOnMenuWithDropDownByText Trade
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Spot" → Yes
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Instant Buy" → Yes
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Panic Sell" → Yes
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Convert" → Yes
+Inside clickOnMenuWithDropDownByText Features
+Actual SubMenu Items: [
+  'Spot ExchangeTrade digital currencies',
+  'InstitutionalAccess the full institutional package',
+  'Buy & SellThe fastest way to buy crypto'
+]
+Checking if submenu contains: "Spot Exchange" → Yes
+Actual SubMenu Items: [
+  'Spot ExchangeTrade digital currencies',
+  'InstitutionalAccess the full institutional package',
+  'Buy & SellThe fastest way to buy crypto'
+]
+Checking if submenu contains: "Institutional" → Yes
+Actual SubMenu Items: [
+  'Spot ExchangeTrade digital currencies',
+  'InstitutionalAccess the full institutional package',
+  'Buy & SellThe fastest way to buy crypto'
+]
+Checking if submenu contains: "Buy & Sell" → Yes
+Inside clickOnMenuWithDropDownByText About Us

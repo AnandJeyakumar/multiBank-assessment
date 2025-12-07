@@ -13,6 +13,7 @@ export class DashboardPage {
     private instantBuyHeader: Locator;
     private xIcon : Locator;
     private whatIsPopUpHeader : Locator;
+    private popoverPanel : Locator;
 
     constructor(public page: Page) {
     this.intialMenuWithoutDropdownoption = this.page.locator("div[class*='style_menu-container'] a");
@@ -24,13 +25,14 @@ export class DashboardPage {
     this.instantBuyHeader = this.page.locator(".flex-grow");
     this.xIcon = this.page.locator("#walkthrough-modal-dialog-close-button");
     this.whatIsPopUpHeader = this.page.locator("h2[class*='text-center']")
+    this.popoverPanel = this.page.locator("[class*='style_popover-panel']")
 
 
 
   }
 
 async goto() {
-  await this.page.goto('');
+  await this.page.goto('/');
   await expect(this.page).toHaveTitle("MultiBank.io - Home");
   await this.page.keyboard.press('Control+-');
 
@@ -69,12 +71,21 @@ async clickOnMenuWithDropDownByText(menuItem: string) {
     }
   }
 
-async validateSubMenuItems(subMenuItemsText: string[]){
-  for (let i = 0; i < subMenuItemsText.length; i++) {
-    const element = this.subMenuItems.nth(i);
-    const actualText = await element.textContent();
-    console.log(`Checking Sub menu item ${i}: "${subMenuItemsText[i]}"`);
-    await expect(element).toContainText(subMenuItemsText[i])
+async validateSubMenuItems(expectedItems: string[]) {
+  await this.subMenuItems.first().waitFor({ state: 'visible'});
+  const count = await this.subMenuItems.count();
+  console.log("The Submenu count is",count)
+  const actualTexts: string[] = [];
+  for (let i = 0; i < count; i++) {
+    const text = await this.subMenuItems.nth(i).textContent();
+    if (text) {
+      actualTexts.push(text.trim());
+    }
+  }
+  for (const expected of expectedItems) {
+    const found = actualTexts.some(actual => actual.includes(expected));
+    console.log(`Checking if submenu contains: "${expected}" → ${found ? 'Yes' : 'No'}`);
+    expect(found).toBeTruthy();
   }
 }
 

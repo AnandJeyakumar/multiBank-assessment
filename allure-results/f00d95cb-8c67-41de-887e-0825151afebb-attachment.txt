@@ -1,0 +1,13 @@
+Checking non-dropdown menu item 0: "Dashboard"
+Checking non-dropdown menu item 1: "Markets"
+dropdownCount is  4
+Checking dropdown menu item 2: "Trade"
+Checking dropdown menu item 3: "Features"
+Checking dropdown menu item 4: "About Us"
+Checking dropdown menu item 5: "Support"
+Inside clickOnMenuWithDropDownByText Trade
+Checking Sub menu item 0: "Spot"
+Checking Sub menu item 1: "Instant Buy"
+Checking Sub menu item 2: "Panic Sell"
+Checking Sub menu item 3: "Convert"
+Inside clickOnMenuWithDropDownByText Features

@@ -1,0 +1,15 @@
+Checking non-dropdown menu item 0: "Dashboard"
+Checking non-dropdown menu item 1: "Markets"
+dropdownCount is  4
+Checking dropdown menu item 2: "Trade"
+Checking dropdown menu item 3: "Features"
+Checking dropdown menu item 4: "About Us"
+Checking dropdown menu item 5: "Support"
+Inside clickOnMenuWithDropDownByText Trade
+Actual SubMenu Items: [
+  'SpotTrade crypto with advanced tools',
+  'Instant BuyBuy Crypto Instantly',
+  'Panic SellSell Assets Quickly',
+  'ConvertQuickly swap any assets'
+]
+Checking if submenu contains: "Spot" → No
