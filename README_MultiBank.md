@@ -4,6 +4,8 @@ This project showcases end-to-end UI automation testing built on Playwright + Ty
 :
 🔗 https://multibank.io/
 
+👉 GitHub Repo - https://github.com/AnandJeyakumar/multiBank-assessment
+
 🚀 **This framework is integrated with GitHub Actions CI/CD**, allowing you to:
 
 Trigger tests manually by selecting branch and target browser (Chromium, Firefox, WebKit)
