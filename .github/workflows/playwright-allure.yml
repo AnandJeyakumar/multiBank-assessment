@@ -62,7 +62,7 @@ jobs:
       # --------- FIXED Allure generation ---------
       - name: Generate Allure Report
         if: always()
-        uses: mikepenz/allure-report-action@v1
+        uses: simple-elf/allure-report-action@v1
         with:
           results: allure-results
           report: allure-report
