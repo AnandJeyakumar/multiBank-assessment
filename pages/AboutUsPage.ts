@@ -20,7 +20,7 @@ export class AboutUsPage {
 
 async validateAboutUsPageContent()
 {
-    await this.pageHeader.first().waitFor();
+    // await this.pageHeader.first().waitFor();
     await validateListOfTexts(this.pageHeader, headerData.aboutUsHeaders);
     await validateListOfTexts(this.pageHeaderDescription, headerData.aboutUsHeaderDescription);
     await this.whiteTextContent.first().waitFor();
