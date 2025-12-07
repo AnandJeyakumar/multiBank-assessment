@@ -1,4 +1,4 @@
-name: Playwright + Allure Using Docker Image
+name: Playwright + Allure
 
 on:
   workflow_dispatch:
@@ -36,17 +36,20 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
 
-      - name: Install deps
+      - name: Install dependencies
         run: npm ci
 
+      # Run tests in parallel
       - name: Run tests (ALL browsers in parallel)
         if: ${{ inputs.browser == 'all' }}
         run: npx playwright test --retries=2
 
+      # Run for a single browser
       - name: Run tests (single browser)
         if: ${{ inputs.browser != 'all' }}
         run: npx playwright test --project=${{ inputs.browser }} --retries=2
 
+      # Upload Playwright HTML report
       - name: Upload Playwright HTML report (30 days)
         if: always()
         uses: actions/upload-artifact@v4
@@ -56,18 +59,21 @@ jobs:
           retention-days: 30
           if-no-files-found: ignore
 
-      - name: Generate Allure report
+      # --------- FIXED Allure generation ---------
+      - name: Generate Allure Report
         if: always()
-        uses: simple-elf/allure-report-action@v1.7
+        uses: mikepenz/allure-report-action@v1
         with:
-          allure_results: allure-results
-          allure_report: allure-report
-          keep_reports: 20
+          results: allure-results
+          report: allure-report
+      # -------------------------------------------
 
+      # Upload Pages artifact
       - name: Upload Pages artifact (Allure)
         if: always()
         uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages
           path: allure-report
 
   deploy-pages:
@@ -77,6 +83,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
