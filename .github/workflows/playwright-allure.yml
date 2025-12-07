@@ -23,7 +23,7 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.54.2-jammy
+      image: mcr.microsoft.com/playwright:v1.57.0-jammy
 
     steps:
       - name: Checkout
@@ -58,6 +58,12 @@ jobs:
           path: playwright-report
           retention-days: 30
           if-no-files-found: ignore
+
+      - name: Install Java
+        if: always()
+        run: |
+          apt-get update -y
+          apt-get install -y openjdk-17-jre
 
       # --------- Allure generation (local, no Docker) ---------
       - name: Generate Allure Report
