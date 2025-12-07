@@ -1,0 +1,84 @@
+name: Playwright + Allure Using Docker Image
+
+on:
+  workflow_dispatch:
+    inputs:
+      browser:
+        description: "Browser(s) to execute Playwright tests"
+        type: choice
+        required: true
+        default: chromium
+        options: [all, chromium, firefox, webkit]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.54.2-jammy
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node cache
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Run tests (ALL browsers in parallel)
+        if: ${{ inputs.browser == 'all' }}
+        run: npx playwright test --retries=2
+
+      # Else run only the selected project
+      - name: Run tests (single browser)
+        if: ${{ inputs.browser != 'all' }}
+        run: npx playwright test --project=${{ inputs.browser }} --retries=2
+
+      - name: Upload Playwright HTML report (30 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Generate Allure report
+        if: always()
+        uses: simple-elf/allure-report-action@v1.7
+        with:
+          allure_results: allure-results
+          allure_report: allure-report
+          keep_reports: 20
+
+      - name: Upload Pages artifact (Allure)
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: allure-report
+
+  deploy-pages:
+    needs: tests
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

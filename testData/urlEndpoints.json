@@ -1,0 +1,11 @@
+{
+    "markets":"/markets",
+    "dashboard":"https://trade.multibank.io/",
+    "spotTrade": "/trade/BTC_USD",
+    "appStoreURL":"https://apps.apple.com/ae/app/multibank-io-buy-btc-crypto/id1592119946",
+    "playStoreURL":"https://play.google.com/store/apps/details?id=com.multibank.app&pli=1",
+    "aboutUs": "/en-AE",
+    "convert":"/trade/convert"
+}   
+
+

@@ -1,0 +1,5 @@
+{
+    "tradeAssets":"BTC-USD",
+    "dashboard":"https://trade.multibank.io/",
+    "tradingPairs": ["BTC-AED", "USDT-AED"]
+}   

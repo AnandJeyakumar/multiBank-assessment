@@ -1,0 +1,28 @@
+{
+  "dashboardMenu": "Dashboard",
+  "marketMenu": "Markets",
+  "tradeMenu" : "Trade",
+  "moreMenu" : "More",
+  "featureMenu": "Features",
+  "aboutUsMenu": "About Us",
+  "supportMenu":"Support",
+  "spotSubMenu":"Spot",
+  "instantBuySubMenu":"Instant Buy",
+  "panicSellSubMenu": "Panic Sell",
+  "convertSubMenu":"Convert",
+  "spotExchangeSubMenu":"Spot Exchange",
+  "institutionalSubMenu":"Institutional",
+  "buy&sellSubMenu":"Buy & Sell",
+  "whyMultiBankSubMenu":"Why Multibank?",
+
+  "tradeSubMenuItem" :["Spot","Instant Buy","Panic Sell","Convert"],
+  "featureMenuSubItems":["Spot Exchange","Institutional","Buy & Sell"],
+  "aboutUsMenuSubItems":["Why Multibank?","Global Presence","Management","Awards","Sponsorship","Blog","Milestones"],
+  "supportMenuSubItems":["Contact Us","FAQs"],
+  "menu": ["Dashboard", "Markets", "Trade", "Features","About Us","Support"],
+  "menuWithMore": ["Dashboard", "Markets", "Trade", "More"],
+  "moreSubMenuItem" : ["Spot Exchange","Institutional","Buy & Sell","Contact Us","FAQs","Why Multibank?","Global Presence"
+  ,"Management","Awards","Sponsorship","Blog","Milestones"]
+  
+
+}
