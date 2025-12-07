@@ -3,7 +3,7 @@ import { test } from '../fixtures/fixtures';
 import { menuData, Title ,urlEndpoint ,spotData } from '../testData';
 import { expectPageToMatchEndpoint , validateElementText } from '../utils/reusableActions'
 
-test.describe('Navigation & Layout', () => {
+test.describe('Assessment', () => {
 
   test('TC01 - Checking Menu and Sub Menu Items Visiblity', async ({ dashboard }) => {
     await dashboard.validateTopMenuItems(menuData.menu);
@@ -74,7 +74,7 @@ test('TC04 Validate marketing banner and download links', async ({ dashboard  })
 
 });
 
-test.only('TC05 Validate About Us Page', async ({ dashboard , aboutUs }) => {
+test('TC05 Validate About Us Page', async ({ dashboard , aboutUs }) => {
   await dashboard.clickOnMenuWithDropDownByText(menuData.aboutUsMenu);
   await dashboard.clickOnSubMenuItemByText(menuData.whyMultiBankSubMenu);
   await aboutUs.validateAboutUsPageContent();
