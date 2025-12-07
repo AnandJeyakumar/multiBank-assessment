@@ -69,6 +69,7 @@ jobs:
         if: always()
         run: |
           rm -rf allure-report
+          rm -rf allure-results/history
           npx allure generate allure-results --clean
         continue-on-error: true
 
